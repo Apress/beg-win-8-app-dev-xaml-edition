@@ -1,0 +1,29 @@
+﻿<common:LayoutAwarePage
+ x:Class="MvvmCalculatorCs.MainPage"
+ xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+ xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+ xmlns:local="using:MvvmCalculatorCs"
+ xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+ xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+ xmlns:vm="using:MvvmCalculatorCs.ViewModels"
+ xmlns:common="using:MvvmCalculatorCs.Common"
+ mc:Ignorable="d">
+    <Page.Resources>
+        <vm:CalculatorViewModel x:Name="CalculatorVm" />
+        <common:StringToNullableIntConverter x:Name="stringToIntConverter" />
+    </Page.Resources>
+    <StackPanel Background="{StaticResource ApplicationPageBackgroundThemeBrush}" DataContext="{Binding Source={StaticResource CalculatorVm}}">
+        <TextBlock Style="{StaticResource PageHeaderTextStyle}">Simple Calculator</TextBlock>
+        <TextBlock Style="{StaticResource ItemTextStyle}">Number 1</TextBlock>
+        <TextBox Text="{Binding Operand1, Mode=TwoWay, Converter={StaticResource stringToIntConverter}}" />
+        <TextBlock Style="{StaticResource ItemTextStyle}">Number 2</TextBlock>
+        <TextBox Text="{Binding Operand2, Mode=TwoWay, Converter={StaticResource stringToIntConverter}}" />
+        <StackPanel Orientation="Horizontal">
+            <Button Command="{Binding AddCommand, Mode=TwoWay}">Add</Button>
+            <Button Command="{Binding ClearCommand, Mode=TwoWay}">Clear</Button>
+        </StackPanel>
+        <TextBlock Style="{StaticResource SubheaderTextStyle}">Result</TextBlock>
+        <TextBox IsReadOnly="True" Text="{Binding Result, Converter={StaticResource stringToIntConverter}}" />
+    </StackPanel>
+</common:LayoutAwarePage>
+

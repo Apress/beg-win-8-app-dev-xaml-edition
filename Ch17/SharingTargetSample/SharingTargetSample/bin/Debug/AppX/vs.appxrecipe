@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>WIN8-HP</Machine>
+    <WindowsUser>Kyle</WindowsUser>
+    <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+    <RegisteredManifestChecksum>5F8D5C631BFAC5266B20791253B0FC0334994E605BC0D82478508BC1E864A371</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>f36c80a1-f4af-4127-9df6-820ecc8c4d86_1.0.0.0_neutral__1n6gkc32tkj7t</RegisteredPackageMoniker>
+    <RegisteredUserModeAppID>f36c80a1-f4af-4127-9df6-820ecc8c4d86_1n6gkc32tkj7t!App</RegisteredUserModeAppID>
+    <RegisteredPackageID>f36c80a1-f4af-4127-9df6-820ecc8c4d86</RegisteredPackageID>
+    <RegisteredPackagePublisher>CN=Kyle</RegisteredPackagePublisher>
+    <RegisteredVersion>1.0.0.0</RegisteredVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="c:\users\kyle\documents\visual studio 2012\Projects\SharingTargetSample\SharingTargetSample\bin\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2012-06-04T15:15:55.675</Modified>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="c:\users\kyle\documents\visual studio 2012\Projects\SharingTargetSample\SharingTargetSample\bin\Debug\SharingTargetSample.exe">
+      <PackagePath>SharingTargetSample.exe</PackagePath>
+      <Modified>2012-06-04T16:50:54.985</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\kyle\documents\visual studio 2012\Projects\SharingTargetSample\SharingTargetSample\bin\Debug\SharingTargetSample.pdb">
+      <PackagePath>SharingTargetSample.pdb</PackagePath>
+      <Modified>2012-06-04T16:50:54.939</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\kyle\documents\visual studio 2012\Projects\SharingTargetSample\SharingTargetSample\Assets\Logo.png">
+      <PackagePath>Assets\Logo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2012-03-19T17:54:48.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\kyle\documents\visual studio 2012\Projects\SharingTargetSample\SharingTargetSample\Assets\SmallLogo.png">
+      <PackagePath>Assets\SmallLogo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2012-03-19T17:54:48.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\kyle\documents\visual studio 2012\Projects\SharingTargetSample\SharingTargetSample\Assets\SplashScreen.png">
+      <PackagePath>Assets\SplashScreen.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2012-03-19T17:54:48.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\kyle\documents\visual studio 2012\Projects\SharingTargetSample\SharingTargetSample\Assets\StoreLogo.png">
+      <PackagePath>Assets\StoreLogo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2012-03-19T17:54:48.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\kyle\documents\visual studio 2012\Projects\SharingTargetSample\SharingTargetSample\Common\ReadMe.txt">
+      <PackagePath>Common\ReadMe.txt</PackagePath>
+      <Modified>2012-06-04T14:19:04.986</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\kyle\documents\visual studio 2012\Projects\SharingTargetSample\SharingTargetSample\bin\Debug\Common\StandardStyles.xaml">
+      <PackagePath>Common\StandardStyles.xaml</PackagePath>
+      <Modified>2012-04-23T21:03:16.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\kyle\documents\visual studio 2012\Projects\SharingTargetSample\SharingTargetSample\bin\Debug\MainPage.xaml">
+      <PackagePath>MainPage.xaml</PackagePath>
+      <Modified>2012-06-04T13:49:17.799</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\kyle\documents\visual studio 2012\Projects\SharingTargetSample\SharingTargetSample\bin\Debug\ShareTargetPage.xaml">
+      <PackagePath>ShareTargetPage.xaml</PackagePath>
+      <Modified>2012-06-04T14:19:04.893</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\kyle\documents\visual studio 2012\Projects\SharingTargetSample\SharingTargetSample\bin\Debug\App.xaml">
+      <PackagePath>App.xaml</PackagePath>
+      <Modified>2012-06-04T13:49:17.752</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\kyle\documents\visual studio 2012\Projects\SharingTargetSample\SharingTargetSample\bin\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+      <Modified>2012-06-04T14:53:29.252</Modified>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>

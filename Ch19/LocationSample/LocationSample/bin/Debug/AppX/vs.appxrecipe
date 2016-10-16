@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>k-8-slate</Machine>
+    <WindowsUser>Kyle</WindowsUser>
+    <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+    <RegisteredManifestChecksum>FA5FF59B496B305E7060AA26131DD8092758F094C966CB133387A89A84646B50</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>e1cc7b2e-05db-4925-adf5-33dce876ef79_1.0.0.0_neutral__1n6gkc32tkj7t</RegisteredPackageMoniker>
+    <RegisteredUserModeAppID>e1cc7b2e-05db-4925-adf5-33dce876ef79_1n6gkc32tkj7t!App</RegisteredUserModeAppID>
+    <RegisteredPackageID>e1cc7b2e-05db-4925-adf5-33dce876ef79</RegisteredPackageID>
+    <RegisteredPackagePublisher>CN=Kyle</RegisteredPackagePublisher>
+    <RegisteredVersion>1.0.0.0</RegisteredVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="c:\users\kyle\documents\visual studio 2012\Projects\Ch19\LocationSample\LocationSample\bin\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2012-09-11T20:00:07.059</Modified>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="c:\users\kyle\documents\visual studio 2012\Projects\Ch19\LocationSample\LocationSample\bin\Debug\LocationSample.exe">
+      <PackagePath>LocationSample.exe</PackagePath>
+      <Modified>2012-09-11T20:00:06.791</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\kyle\documents\visual studio 2012\Projects\Ch19\LocationSample\LocationSample\bin\Debug\LocationSample.pdb">
+      <PackagePath>LocationSample.pdb</PackagePath>
+      <Modified>2012-09-11T20:00:06.767</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\kyle\documents\visual studio 2012\Projects\Ch19\LocationSample\LocationSample\Assets\Logo.png">
+      <PackagePath>Assets\Logo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2012-03-16T00:42:52.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\kyle\documents\visual studio 2012\Projects\Ch19\LocationSample\LocationSample\Assets\SmallLogo.png">
+      <PackagePath>Assets\SmallLogo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2012-03-16T00:42:52.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\kyle\documents\visual studio 2012\Projects\Ch19\LocationSample\LocationSample\Assets\SplashScreen.png">
+      <PackagePath>Assets\SplashScreen.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2012-03-16T00:42:52.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\kyle\documents\visual studio 2012\Projects\Ch19\LocationSample\LocationSample\Assets\StoreLogo.png">
+      <PackagePath>Assets\StoreLogo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2012-03-16T00:42:52.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\kyle\documents\visual studio 2012\Projects\Ch19\LocationSample\LocationSample\bin\Debug\App.xaml">
+      <PackagePath>App.xaml</PackagePath>
+      <Modified>2012-09-11T19:50:49.729</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\kyle\documents\visual studio 2012\Projects\Ch19\LocationSample\LocationSample\bin\Debug\Common\StandardStyles.xaml">
+      <PackagePath>Common\StandardStyles.xaml</PackagePath>
+      <Modified>2012-06-26T20:19:20.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\kyle\documents\visual studio 2012\Projects\Ch19\LocationSample\LocationSample\bin\Debug\MainPage.xaml">
+      <PackagePath>MainPage.xaml</PackagePath>
+      <Modified>2012-09-11T20:00:04.105</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\kyle\documents\visual studio 2012\Projects\Ch19\LocationSample\LocationSample\bin\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+      <Modified>2012-09-11T20:00:06.920</Modified>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>

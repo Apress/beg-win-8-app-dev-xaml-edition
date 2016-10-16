@@ -1,0 +1,6 @@
+c:\users\kyle\documents\visual studio 11\Projects\ODataClientSample\ODataClientSample\bin\Debug\ODataClientSample.exe.config
+c:\users\kyle\documents\visual studio 11\Projects\ODataClientSample\ODataClientSample\bin\Debug\ODataClientSample.exe
+c:\users\kyle\documents\visual studio 11\Projects\ODataClientSample\ODataClientSample\bin\Debug\ODataClientSample.pdb
+c:\users\kyle\documents\visual studio 11\Projects\ODataClientSample\ODataClientSample\obj\Debug\ODataClientSample.csprojResolveAssemblyReference.cache
+c:\users\kyle\documents\visual studio 11\Projects\ODataClientSample\ODataClientSample\obj\Debug\ODataClientSample.exe
+c:\users\kyle\documents\visual studio 11\Projects\ODataClientSample\ODataClientSample\obj\Debug\ODataClientSample.pdb

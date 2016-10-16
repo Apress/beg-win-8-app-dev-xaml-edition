@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>k-8-slate</Machine>
+    <WindowsUser>Kyle</WindowsUser>
+    <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+    <RegisteredManifestChecksum>82686011B8CF6AC8B38C51BCFBA9EA7C5B4AAAB23817DC3B4B7086E7CC3DC7F7</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>b2c9e2fc-5b16-429d-9c02-8d26008ad1aa_1.0.0.0_neutral__1n6gkc32tkj7t</RegisteredPackageMoniker>
+    <RegisteredUserModeAppID>b2c9e2fc-5b16-429d-9c02-8d26008ad1aa_1n6gkc32tkj7t!App</RegisteredUserModeAppID>
+    <RegisteredPackageID>b2c9e2fc-5b16-429d-9c02-8d26008ad1aa</RegisteredPackageID>
+    <RegisteredPackagePublisher>CN=Kyle</RegisteredPackagePublisher>
+    <RegisteredVersion>1.0.0.0</RegisteredVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="c:\users\kyle\documents\visual studio 2012\Projects\Ch19\CameraSample\CameraSample\bin\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2012-09-11T20:38:35.315</Modified>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="c:\users\kyle\documents\visual studio 2012\Projects\Ch19\CameraSample\CameraSample\bin\Debug\CameraSample.exe">
+      <PackagePath>CameraSample.exe</PackagePath>
+      <Modified>2012-09-11T20:38:35.054</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\kyle\documents\visual studio 2012\Projects\Ch19\CameraSample\CameraSample\bin\Debug\CameraSample.pdb">
+      <PackagePath>CameraSample.pdb</PackagePath>
+      <Modified>2012-09-11T20:38:35.025</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\kyle\documents\visual studio 2012\Projects\Ch19\CameraSample\CameraSample\Assets\Logo.png">
+      <PackagePath>Assets\Logo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2012-03-16T00:42:52.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\kyle\documents\visual studio 2012\Projects\Ch19\CameraSample\CameraSample\Assets\SmallLogo.png">
+      <PackagePath>Assets\SmallLogo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2012-03-16T00:42:52.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\kyle\documents\visual studio 2012\Projects\Ch19\CameraSample\CameraSample\Assets\SplashScreen.png">
+      <PackagePath>Assets\SplashScreen.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2012-03-16T00:42:52.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\kyle\documents\visual studio 2012\Projects\Ch19\CameraSample\CameraSample\Assets\StoreLogo.png">
+      <PackagePath>Assets\StoreLogo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2012-03-16T00:42:52.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\kyle\documents\visual studio 2012\Projects\Ch19\CameraSample\CameraSample\bin\Debug\App.xaml">
+      <PackagePath>App.xaml</PackagePath>
+      <Modified>2012-09-11T20:29:12.828</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\kyle\documents\visual studio 2012\Projects\Ch19\CameraSample\CameraSample\bin\Debug\Common\StandardStyles.xaml">
+      <PackagePath>Common\StandardStyles.xaml</PackagePath>
+      <Modified>2012-06-26T20:19:20.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\kyle\documents\visual studio 2012\Projects\Ch19\CameraSample\CameraSample\bin\Debug\MainPage.xaml">
+      <PackagePath>MainPage.xaml</PackagePath>
+      <Modified>2012-09-11T20:38:09.100</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\kyle\documents\visual studio 2012\Projects\Ch19\CameraSample\CameraSample\bin\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+      <Modified>2012-09-11T20:38:35.177</Modified>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>

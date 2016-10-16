@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>WIN8-PC</Machine>
+    <WindowsUser>Kyle</WindowsUser>
+    <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="c:\users\kyle\documents\visual studio 11\Projects\RssReaderCs\RssReaderCs\bin\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <Modified>2012-04-15T14:45:58.412</Modified>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="c:\users\kyle\documents\visual studio 11\Projects\RssReaderCs\RssReaderCs\bin\Debug\RssReaderCs.exe">
+      <PackagePath>RssReaderCs.exe</PackagePath>
+      <Modified>2012-04-15T14:56:23.204</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\kyle\documents\visual studio 11\Projects\RssReaderCs\RssReaderCs\bin\Debug\RssReaderCs.pdb">
+      <PackagePath>RssReaderCs.pdb</PackagePath>
+      <Modified>2012-04-15T14:56:23.179</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\kyle\documents\visual studio 11\Projects\RssReaderCs\RssReaderCs\Assets\Logo.png">
+      <PackagePath>Assets\Logo.png</PackagePath>
+      <Modified>2012-02-14T03:21:16.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\kyle\documents\visual studio 11\Projects\RssReaderCs\RssReaderCs\Assets\SmallLogo.png">
+      <PackagePath>Assets\SmallLogo.png</PackagePath>
+      <Modified>2012-02-14T03:21:16.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\kyle\documents\visual studio 11\Projects\RssReaderCs\RssReaderCs\Assets\SplashScreen.png">
+      <PackagePath>Assets\SplashScreen.png</PackagePath>
+      <Modified>2012-02-14T03:21:16.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\kyle\documents\visual studio 11\Projects\RssReaderCs\RssReaderCs\Assets\StoreLogo.png">
+      <PackagePath>Assets\StoreLogo.png</PackagePath>
+      <Modified>2012-02-14T03:21:16.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\kyle\documents\visual studio 11\Projects\RssReaderCs\RssReaderCs\bin\Debug\Common\StandardStyles.xaml">
+      <PackagePath>Common\StandardStyles.xaml</PackagePath>
+      <Modified>2012-02-14T03:21:16.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\kyle\documents\visual studio 11\Projects\RssReaderCs\RssReaderCs\bin\Debug\BlankPage.xaml">
+      <PackagePath>BlankPage.xaml</PackagePath>
+      <Modified>2012-04-15T14:56:17.761</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\kyle\documents\visual studio 11\Projects\RssReaderCs\RssReaderCs\bin\Debug\App.xaml">
+      <PackagePath>App.xaml</PackagePath>
+      <Modified>2012-04-15T13:06:04.974</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\kyle\documents\visual studio 11\Projects\RssReaderCs\RssReaderCs\bin\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+      <Modified>2012-04-15T14:45:58.290</Modified>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>

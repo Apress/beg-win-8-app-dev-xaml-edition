@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PriInfo>
+	<ResourceMap name="System.Spatial.Metro" version="1.0" primary="true">
+		<Qualifiers/>
+		<ResourceMapSubtree name="System.Spatial">
+			<NamedResource name="GeoJsonReader_ExpectedArray" uri="ms-resource://System.Spatial.Metro/System.Spatial/GeoJsonReader_ExpectedArray">
+				<Candidate type="String">
+					<Value>Invalid GeoJSON. A primitive value was found in an array element where an array was expected.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="GeoJsonReader_ExpectedNumeric" uri="ms-resource://System.Spatial.Metro/System.Spatial/GeoJsonReader_ExpectedNumeric">
+				<Candidate type="String">
+					<Value>Invalid GeoJSON. A non-numeric value was found in an array element where a numeric value was expected.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="GeoJsonReader_InvalidCrsName" uri="ms-resource://System.Spatial.Metro/System.Spatial/GeoJsonReader_InvalidCrsName">
+				<Candidate type="String">
+					<Value>Invalid GeoJSON. The value '{0}' is not a recognized CRS name.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="GeoJsonReader_InvalidCrsType" uri="ms-resource://System.Spatial.Metro/System.Spatial/GeoJsonReader_InvalidCrsType">
+				<Candidate type="String">
+					<Value>Invalid GeoJSON. The value '{0}' is not a recognized CRS type.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="GeoJsonReader_InvalidNullElement" uri="ms-resource://System.Spatial.Metro/System.Spatial/GeoJsonReader_InvalidNullElement">
+				<Candidate type="String">
+					<Value>Invalid GeoJSON. A null value was found in an array element where nulls are not allowed.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="GeoJsonReader_InvalidPosition" uri="ms-resource://System.Spatial.Metro/System.Spatial/GeoJsonReader_InvalidPosition">
+				<Candidate type="String">
+					<Value>Invalid GeoJSON. A position must contain at least two and no more than four elements.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="GeoJsonReader_InvalidTypeName" uri="ms-resource://System.Spatial.Metro/System.Spatial/GeoJsonReader_InvalidTypeName">
+				<Candidate type="String">
+					<Value>Invalid GeoJSON. The value '{0}' is not a valid value for the 'type' member.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="GeoJsonReader_MissingRequiredMember" uri="ms-resource://System.Spatial.Metro/System.Spatial/GeoJsonReader_MissingRequiredMember">
+				<Candidate type="String">
+					<Value>Invalid GeoJSON. The '{0}' member is required, but was not found.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="GmlReader_EmptyRingsNotAllowed" uri="ms-resource://System.Spatial.Metro/System.Spatial/GmlReader_EmptyRingsNotAllowed">
+				<Candidate type="String">
+					<Value>Incorrect GML Format: a LinearRing element must not be empty.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="GmlReader_ExpectReaderAtElement" uri="ms-resource://System.Spatial.Metro/System.Spatial/GmlReader_ExpectReaderAtElement">
+				<Candidate type="String">
+					<Value>Incorrect GML Format: the XmlReader instance is expected to be at the start of a GML element.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="GmlReader_InvalidAttribute" uri="ms-resource://System.Spatial.Metro/System.Spatial/GmlReader_InvalidAttribute">
+				<Candidate type="String">
+					<Value>The attribute '{0}' on element '{1}' is not supported.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="GmlReader_InvalidSpatialType" uri="ms-resource://System.Spatial.Metro/System.Spatial/GmlReader_InvalidSpatialType">
+				<Candidate type="String">
+					<Value>Incorrect GML Format: unknown spatial type tag "{0}".</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="GmlReader_InvalidSrsName" uri="ms-resource://System.Spatial.Metro/System.Spatial/GmlReader_InvalidSrsName">
+				<Candidate type="String">
+					<Value>Incorrect GML Format: a srsName attribute must begin with the namespace "{0}".</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="GmlReader_PosListNeedsEvenCount" uri="ms-resource://System.Spatial.Metro/System.Spatial/GmlReader_PosListNeedsEvenCount">
+				<Candidate type="String">
+					<Value>Incorrect GML Format: a posList element must contain an even number of coordinates.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="GmlReader_PosNeedTwoNumbers" uri="ms-resource://System.Spatial.Metro/System.Spatial/GmlReader_PosNeedTwoNumbers">
+				<Candidate type="String">
+					<Value>Incorrect GML Format: a pos element must contain at least two coordinates.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="GmlReader_UnexpectedElement" uri="ms-resource://System.Spatial.Metro/System.Spatial/GmlReader_UnexpectedElement">
+				<Candidate type="String">
+					<Value>Incorrect GML Format: The XmlReader instance encountered an unexpected element "{0}".</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="InvalidPointCoordinate" uri="ms-resource://System.Spatial.Metro/System.Spatial/InvalidPointCoordinate">
+				<Candidate type="String">
+					<Value>The value '{0}' is not valid for the coordinate '{1}'.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="JsonReaderExtensions_CannotReadPropertyValueAsString" uri="ms-resource://System.Spatial.Metro/System.Spatial/JsonReaderExtensions_CannotReadPropertyValueAsString">
+				<Candidate type="String">
+					<Value>Cannot read the value '{0}' for the property '{1}' as a quoted JSON string value.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="JsonReaderExtensions_CannotReadValueAsJsonObject" uri="ms-resource://System.Spatial.Metro/System.Spatial/JsonReaderExtensions_CannotReadValueAsJsonObject">
+				<Candidate type="String">
+					<Value>Cannot read the value '{0}' as a JSON object.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="Point_AccessCoordinateWhenEmpty" uri="ms-resource://System.Spatial.Metro/System.Spatial/Point_AccessCoordinateWhenEmpty">
+				<Candidate type="String">
+					<Value>Access to the coordinate properties of an empty point is not supported.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="PriorityQueueDoesNotContainItem" uri="ms-resource://System.Spatial.Metro/System.Spatial/PriorityQueueDoesNotContainItem">
+				<Candidate type="String">
+					<Value>The queue doesn't contain an item with the priority {0}.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="PriorityQueueEnqueueExistingPriority" uri="ms-resource://System.Spatial.Metro/System.Spatial/PriorityQueueEnqueueExistingPriority">
+				<Candidate type="String">
+					<Value>An item with the same priority already exists.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="PriorityQueueOperationNotValidOnEmptyQueue" uri="ms-resource://System.Spatial.Metro/System.Spatial/PriorityQueueOperationNotValidOnEmptyQueue">
+				<Candidate type="String">
+					<Value>The operation is not valid on an empty queue.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="SpatialBuilder_CannotCreateBeforeDrawn" uri="ms-resource://System.Spatial.Metro/System.Spatial/SpatialBuilder_CannotCreateBeforeDrawn">
+				<Candidate type="String">
+					<Value>The builder cannot create an instance until all pipeline calls are completed.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="SpatialImplementation_NoRegisteredOperations" uri="ms-resource://System.Spatial.Metro/System.Spatial/SpatialImplementation_NoRegisteredOperations">
+				<Candidate type="String">
+					<Value>No operations are registered. Please provide operations using SpatialImplementation.CurrentImplementation.Operations property.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="Validator_FullGlobeCannotHaveElements" uri="ms-resource://System.Spatial.Metro/System.Spatial/Validator_FullGlobeCannotHaveElements">
+				<Candidate type="String">
+					<Value>Invalid spatial data: the spatial type "FullGlobe" cannot contain figures.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="Validator_FullGlobeInCollection" uri="ms-resource://System.Spatial.Metro/System.Spatial/Validator_FullGlobeInCollection">
+				<Candidate type="String">
+					<Value>Invalid spatial data: the spatial type "FullGlobe" cannot be part of a collection type.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="Validator_InvalidLatitudeCoordinate" uri="ms-resource://System.Spatial.Metro/System.Spatial/Validator_InvalidLatitudeCoordinate">
+				<Candidate type="String">
+					<Value>Invalid latitude coordinate {0}. A latitude coordinate must be a value between -90.0 and +90.0 degrees.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="Validator_InvalidLongitudeCoordinate" uri="ms-resource://System.Spatial.Metro/System.Spatial/Validator_InvalidLongitudeCoordinate">
+				<Candidate type="String">
+					<Value>Invalid longitude coordinate {0}. A longitude coordinate must be a value between -15069.0 and +15069.0 degrees</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="Validator_InvalidPointCoordinate" uri="ms-resource://System.Spatial.Metro/System.Spatial/Validator_InvalidPointCoordinate">
+				<Candidate type="String">
+					<Value>Invalid spatial data: the coordinates ({0} {1} {2} {3}) are not valid.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="Validator_InvalidPolygonPoints" uri="ms-resource://System.Spatial.Metro/System.Spatial/Validator_InvalidPolygonPoints">
+				<Candidate type="String">
+					<Value>Invalid spatial data: A polygon ring must contain at least four points, and the last point must be equal to the first point.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="Validator_InvalidType" uri="ms-resource://System.Spatial.Metro/System.Spatial/Validator_InvalidType">
+				<Candidate type="String">
+					<Value>Invalid spatial data: Invalid spatial type "{0}".</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="Validator_LineStringNeedsTwoPoints" uri="ms-resource://System.Spatial.Metro/System.Spatial/Validator_LineStringNeedsTwoPoints">
+				<Candidate type="String">
+					<Value>Invalid spatial data: the spatial type "LineString" must contain at least two points.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="Validator_NestingOverflow" uri="ms-resource://System.Spatial.Metro/System.Spatial/Validator_NestingOverflow">
+				<Candidate type="String">
+					<Value>Invalid spatial data: only {0} levels of nesting are supported in collection types.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="Validator_SridMismatch" uri="ms-resource://System.Spatial.Metro/System.Spatial/Validator_SridMismatch">
+				<Candidate type="String">
+					<Value>Invalid spatial data: An instance of spatial type can have only one unique CoordinateSystem for all of its coordinates.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="Validator_UnexpectedCall" uri="ms-resource://System.Spatial.Metro/System.Spatial/Validator_UnexpectedCall">
+				<Candidate type="String">
+					<Value>Invalid spatial data: expected call to "{0}" but got call to "{1}".</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="Validator_UnexpectedCall2" uri="ms-resource://System.Spatial.Metro/System.Spatial/Validator_UnexpectedCall2">
+				<Candidate type="String">
+					<Value>Invalid spatial data: expected call to "{0}" or "{1}" but got call to "{2}".</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="Validator_UnexpectedGeography" uri="ms-resource://System.Spatial.Metro/System.Spatial/Validator_UnexpectedGeography">
+				<Candidate type="String">
+					<Value>A geography operation was called while processing a geometric shape.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="Validator_UnexpectedGeometry" uri="ms-resource://System.Spatial.Metro/System.Spatial/Validator_UnexpectedGeometry">
+				<Candidate type="String">
+					<Value>A geometry operation was called while processing a geographic shape.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="WellKnownText_TooManyDimensions" uri="ms-resource://System.Spatial.Metro/System.Spatial/WellKnownText_TooManyDimensions">
+				<Candidate type="String">
+					<Value>The WellKnownTextReader is configured to allow only two dimensions, and a third dimension was encountered.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="WellKnownText_UnexpectedCharacter" uri="ms-resource://System.Spatial.Metro/System.Spatial/WellKnownText_UnexpectedCharacter">
+				<Candidate type="String">
+					<Value>Unexpected character '{0}' found in text.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="WellKnownText_UnexpectedToken" uri="ms-resource://System.Spatial.Metro/System.Spatial/WellKnownText_UnexpectedToken">
+				<Candidate type="String">
+					<Value>Expecting token type "{0}" with text "{1}" but found "{2}".</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="WellKnownText_UnknownTaggedText" uri="ms-resource://System.Spatial.Metro/System.Spatial/WellKnownText_UnknownTaggedText">
+				<Candidate type="String">
+					<Value>Unknown Tagged Text "{0}".</Value>
+				</Candidate>
+			</NamedResource>
+		</ResourceMapSubtree>
+	</ResourceMap>
+</PriInfo>

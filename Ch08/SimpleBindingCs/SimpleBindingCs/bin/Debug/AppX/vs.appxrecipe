@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>WIN8-HP</Machine>
+    <WindowsUser>Kyle</WindowsUser>
+    <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+    <RegisteredManifestChecksum>860E79A20FEE3F4B76136881C37D57DC360ABFFBD936ECBC605432460F820EBD</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>561e4691-8d6a-4930-a245-92c2bcfc38ce_1.0.0.0_neutral__1n6gkc32tkj7t</RegisteredPackageMoniker>
+    <RegisteredUserModeAppID>561e4691-8d6a-4930-a245-92c2bcfc38ce_1n6gkc32tkj7t!App</RegisteredUserModeAppID>
+    <RegisteredPackageID>561e4691-8d6a-4930-a245-92c2bcfc38ce</RegisteredPackageID>
+    <RegisteredPackagePublisher>CN=Kyle</RegisteredPackagePublisher>
+    <RegisteredVersion>1.0.0.0</RegisteredVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="C:\Users\Kyle\Documents\Visual Studio 2012\Projects\Ch08\SimpleBindingCs\SimpleBindingCs\bin\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2012-06-05T08:14:09.747</Modified>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="C:\Users\Kyle\Documents\Visual Studio 2012\Projects\Ch08\SimpleBindingCs\SimpleBindingCs\bin\Debug\SimpleBindingCs.exe">
+      <PackagePath>SimpleBindingCs.exe</PackagePath>
+      <Modified>2012-06-05T08:20:02.543</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Kyle\Documents\Visual Studio 2012\Projects\Ch08\SimpleBindingCs\SimpleBindingCs\bin\Debug\SimpleBindingCs.pdb">
+      <PackagePath>SimpleBindingCs.pdb</PackagePath>
+      <Modified>2012-06-05T08:20:02.518</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Kyle\Documents\Visual Studio 2012\Projects\Ch08\SimpleBindingCs\SimpleBindingCs\Assets\Logo.png">
+      <PackagePath>Assets\Logo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2012-03-19T17:54:48.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Kyle\Documents\Visual Studio 2012\Projects\Ch08\SimpleBindingCs\SimpleBindingCs\Assets\SmallLogo.png">
+      <PackagePath>Assets\SmallLogo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2012-03-19T17:54:48.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Kyle\Documents\Visual Studio 2012\Projects\Ch08\SimpleBindingCs\SimpleBindingCs\Assets\SplashScreen.png">
+      <PackagePath>Assets\SplashScreen.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2012-03-19T17:54:48.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Kyle\Documents\Visual Studio 2012\Projects\Ch08\SimpleBindingCs\SimpleBindingCs\Assets\StoreLogo.png">
+      <PackagePath>Assets\StoreLogo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2012-03-19T17:54:48.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Kyle\Documents\Visual Studio 2012\Projects\Ch08\SimpleBindingCs\SimpleBindingCs\bin\Debug\Common\StandardStyles.xaml">
+      <PackagePath>Common\StandardStyles.xaml</PackagePath>
+      <Modified>2012-04-23T21:03:16.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Kyle\Documents\Visual Studio 2012\Projects\Ch08\SimpleBindingCs\SimpleBindingCs\bin\Debug\MainPage.xaml">
+      <PackagePath>MainPage.xaml</PackagePath>
+      <Modified>2012-06-05T08:19:48.133</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Kyle\Documents\Visual Studio 2012\Projects\Ch08\SimpleBindingCs\SimpleBindingCs\bin\Debug\App.xaml">
+      <PackagePath>App.xaml</PackagePath>
+      <Modified>2012-06-05T07:51:03.136</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Kyle\Documents\Visual Studio 2012\Projects\Ch08\SimpleBindingCs\SimpleBindingCs\bin\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+      <Modified>2012-06-05T08:14:09.608</Modified>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>

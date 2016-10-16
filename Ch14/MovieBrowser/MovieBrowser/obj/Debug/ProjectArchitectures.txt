@@ -1,0 +1,1 @@
+C:\Users\Kyle\Documents\Visual Studio 2012\Projects\Ch14\MovieBrowser\MovieBrowser\MovieBrowser.csproj;neutral

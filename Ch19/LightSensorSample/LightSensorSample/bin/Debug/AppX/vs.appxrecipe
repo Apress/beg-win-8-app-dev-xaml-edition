@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>k-8-slate</Machine>
+    <WindowsUser>Kyle</WindowsUser>
+    <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+    <RegisteredManifestChecksum>1483971E798CFCC1C1123D56BC1FA74AB1E1C16EBDAFBDCDBF5DD3475128FC2C</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>2c348b25-2554-4f26-ab01-e84a57c6e2d9_1.0.0.0_neutral__1n6gkc32tkj7t</RegisteredPackageMoniker>
+    <RegisteredUserModeAppID>2c348b25-2554-4f26-ab01-e84a57c6e2d9_1n6gkc32tkj7t!App</RegisteredUserModeAppID>
+    <RegisteredPackageID>2c348b25-2554-4f26-ab01-e84a57c6e2d9</RegisteredPackageID>
+    <RegisteredPackagePublisher>CN=Kyle</RegisteredPackagePublisher>
+    <RegisteredVersion>1.0.0.0</RegisteredVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="c:\users\kyle\documents\visual studio 2012\Projects\Ch19\LightSensorSample\LightSensorSample\bin\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2012-09-11T19:33:04.545</Modified>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="c:\users\kyle\documents\visual studio 2012\Projects\Ch19\LightSensorSample\LightSensorSample\bin\Debug\LightSensorSample.exe">
+      <PackagePath>LightSensorSample.exe</PackagePath>
+      <Modified>2012-09-11T19:33:04.382</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\kyle\documents\visual studio 2012\Projects\Ch19\LightSensorSample\LightSensorSample\bin\Debug\LightSensorSample.pdb">
+      <PackagePath>LightSensorSample.pdb</PackagePath>
+      <Modified>2012-09-11T19:33:04.356</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\kyle\documents\visual studio 2012\Projects\Ch19\LightSensorSample\LightSensorSample\Assets\Logo.png">
+      <PackagePath>Assets\Logo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2012-03-16T00:42:52.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\kyle\documents\visual studio 2012\Projects\Ch19\LightSensorSample\LightSensorSample\Assets\SmallLogo.png">
+      <PackagePath>Assets\SmallLogo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2012-03-16T00:42:52.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\kyle\documents\visual studio 2012\Projects\Ch19\LightSensorSample\LightSensorSample\Assets\SplashScreen.png">
+      <PackagePath>Assets\SplashScreen.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2012-03-16T00:42:52.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\kyle\documents\visual studio 2012\Projects\Ch19\LightSensorSample\LightSensorSample\Assets\StoreLogo.png">
+      <PackagePath>Assets\StoreLogo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2012-03-16T00:42:52.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\kyle\documents\visual studio 2012\Projects\Ch19\LightSensorSample\LightSensorSample\bin\Debug\App.xaml">
+      <PackagePath>App.xaml</PackagePath>
+      <Modified>2012-09-11T19:29:22.250</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\kyle\documents\visual studio 2012\Projects\Ch19\LightSensorSample\LightSensorSample\bin\Debug\Common\StandardStyles.xaml">
+      <PackagePath>Common\StandardStyles.xaml</PackagePath>
+      <Modified>2012-06-26T20:19:20.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\kyle\documents\visual studio 2012\Projects\Ch19\LightSensorSample\LightSensorSample\bin\Debug\MainPage.xaml">
+      <PackagePath>MainPage.xaml</PackagePath>
+      <Modified>2012-09-11T19:33:03.358</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\kyle\documents\visual studio 2012\Projects\Ch19\LightSensorSample\LightSensorSample\bin\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+      <Modified>2012-09-11T19:33:04.466</Modified>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>

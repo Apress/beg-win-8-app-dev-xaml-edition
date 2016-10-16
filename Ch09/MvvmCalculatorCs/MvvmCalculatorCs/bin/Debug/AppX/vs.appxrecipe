@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>WIN8-HP</Machine>
+    <WindowsUser>Kyle</WindowsUser>
+    <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+    <RegisteredManifestChecksum>4C59CF34E0E09871835F1285A4EF910A8FCA53DAC8D77BB17A58462CC0A07E3F</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>4241e890-7e9c-4ed7-b527-5c0bde8a8045_1.0.0.0_neutral__1n6gkc32tkj7t</RegisteredPackageMoniker>
+    <RegisteredUserModeAppID>4241e890-7e9c-4ed7-b527-5c0bde8a8045_1n6gkc32tkj7t!App</RegisteredUserModeAppID>
+    <RegisteredPackageID>4241e890-7e9c-4ed7-b527-5c0bde8a8045</RegisteredPackageID>
+    <RegisteredPackagePublisher>CN=Kyle</RegisteredPackagePublisher>
+    <RegisteredVersion>1.0.0.0</RegisteredVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="C:\Users\Kyle\Documents\Visual Studio 2012\Projects\Ch09\MvvmCalculatorCs\MvvmCalculatorCs\bin\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2012-06-06T22:04:38.066</Modified>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="C:\Users\Kyle\Documents\Visual Studio 2012\Projects\Ch09\MvvmCalculatorCs\MvvmCalculatorCs\bin\Debug\MvvmCalculatorCs.exe">
+      <PackagePath>MvvmCalculatorCs.exe</PackagePath>
+      <Modified>2012-06-06T22:04:37.949</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Kyle\Documents\Visual Studio 2012\Projects\Ch09\MvvmCalculatorCs\MvvmCalculatorCs\bin\Debug\MvvmCalculatorCs.pdb">
+      <PackagePath>MvvmCalculatorCs.pdb</PackagePath>
+      <Modified>2012-06-06T22:04:37.920</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Kyle\Documents\Visual Studio 2012\Projects\Ch09\MvvmCalculatorCs\MvvmCalculatorCs\Assets\Logo.png">
+      <PackagePath>Assets\Logo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2012-03-19T20:54:48.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Kyle\Documents\Visual Studio 2012\Projects\Ch09\MvvmCalculatorCs\MvvmCalculatorCs\Assets\SmallLogo.png">
+      <PackagePath>Assets\SmallLogo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2012-03-19T20:54:48.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Kyle\Documents\Visual Studio 2012\Projects\Ch09\MvvmCalculatorCs\MvvmCalculatorCs\Assets\SplashScreen.png">
+      <PackagePath>Assets\SplashScreen.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2012-03-19T20:54:48.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Kyle\Documents\Visual Studio 2012\Projects\Ch09\MvvmCalculatorCs\MvvmCalculatorCs\Assets\StoreLogo.png">
+      <PackagePath>Assets\StoreLogo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2012-03-19T20:54:48.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Kyle\Documents\Visual Studio 2012\Projects\Ch09\MvvmCalculatorCs\MvvmCalculatorCs\Common\ReadMe.txt">
+      <PackagePath>Common\ReadMe.txt</PackagePath>
+      <Modified>2012-06-06T21:28:23.631</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Kyle\Documents\Visual Studio 2012\Projects\Ch09\MvvmCalculatorCs\MvvmCalculatorCs\bin\Debug\Common\StandardStyles.xaml">
+      <PackagePath>Common\StandardStyles.xaml</PackagePath>
+      <Modified>2012-04-24T00:03:16.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Kyle\Documents\Visual Studio 2012\Projects\Ch09\MvvmCalculatorCs\MvvmCalculatorCs\bin\Debug\MainPage.xaml">
+      <PackagePath>MainPage.xaml</PackagePath>
+      <Modified>2012-06-06T22:04:34.342</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Kyle\Documents\Visual Studio 2012\Projects\Ch09\MvvmCalculatorCs\MvvmCalculatorCs\bin\Debug\App.xaml">
+      <PackagePath>App.xaml</PackagePath>
+      <Modified>2012-06-06T21:02:43.131</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Kyle\Documents\Visual Studio 2012\Projects\Ch09\MvvmCalculatorCs\MvvmCalculatorCs\bin\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+      <Modified>2012-06-06T21:29:07.541</Modified>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,16 @@
+Assets\DarkGray.png
+Assets\LargeBoxArt.png
+Assets\LightGray.png
+Assets\Logo.png
+Assets\MediumBoxArt.png
+Assets\MediumGray.png
+Assets\SmallBoxArt.png
+Assets\SmallLogo.png
+Assets\SplashScreen.png
+Assets\StoreLogo.png
+App.xaml
+Common\MovieBrowserStyles.xaml
+Common\StandardStyles.xaml
+GroupDetailPage.xaml
+GroupedItemsPage.xaml
+ItemDetailPage.xaml

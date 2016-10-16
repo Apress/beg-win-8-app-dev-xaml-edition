@@ -1,0 +1,106 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>WIN8-HP</Machine>
+    <WindowsUser>Kyle</WindowsUser>
+    <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+    <RegisteredManifestChecksum>F0AD55C8C3353404A0E230C74F26AA1BEF325FEA71D231C07967144875CBBD8C</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>aa10596b-6ad8-47f3-9f24-1e300bc4b6be_1.0.0.0_neutral__1n6gkc32tkj7t</RegisteredPackageMoniker>
+    <RegisteredUserModeAppID>aa10596b-6ad8-47f3-9f24-1e300bc4b6be_1n6gkc32tkj7t!App</RegisteredUserModeAppID>
+    <RegisteredPackageID>aa10596b-6ad8-47f3-9f24-1e300bc4b6be</RegisteredPackageID>
+    <RegisteredPackagePublisher>CN=Kyle</RegisteredPackagePublisher>
+    <RegisteredVersion>1.0.0.0</RegisteredVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="C:\Users\Kyle\Documents\Visual Studio 2012\Projects\Ch16\MovieBrowser\MovieBrowser\bin\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2012-07-25T20:40:54.737</Modified>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="C:\Users\Kyle\Documents\Visual Studio 2012\Projects\Ch16\MovieBrowser\MovieBrowser\bin\Debug\MovieBrowser.exe">
+      <PackagePath>MovieBrowser.exe</PackagePath>
+      <Modified>2012-07-25T20:41:42.862</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Kyle\Documents\Visual Studio 2012\Projects\Ch16\MovieBrowser\MovieBrowser\bin\Debug\MovieBrowser.pdb">
+      <PackagePath>MovieBrowser.pdb</PackagePath>
+      <Modified>2012-07-25T20:41:42.830</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Kyle\Documents\Visual Studio 2012\Projects\Ch16\MovieBrowser\MovieBrowser\Assets\LargeBoxArt.png">
+      <PackagePath>Assets\LargeBoxArt.png</PackagePath>
+      <Modified>2012-07-11T11:20:39.995</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Kyle\Documents\Visual Studio 2012\Projects\Ch16\MovieBrowser\MovieBrowser\Assets\Logo.png">
+      <PackagePath>Assets\Logo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2012-03-19T20:54:48.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Kyle\Documents\Visual Studio 2012\Projects\Ch16\MovieBrowser\MovieBrowser\Assets\MediumBoxArt.png">
+      <PackagePath>Assets\MediumBoxArt.png</PackagePath>
+      <Modified>2012-07-11T11:26:09.979</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Kyle\Documents\Visual Studio 2012\Projects\Ch16\MovieBrowser\MovieBrowser\Assets\SmallBoxArt.png">
+      <PackagePath>Assets\SmallBoxArt.png</PackagePath>
+      <Modified>2012-07-11T11:26:33.204</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Kyle\Documents\Visual Studio 2012\Projects\Ch16\MovieBrowser\MovieBrowser\Assets\SmallLogo.png">
+      <PackagePath>Assets\SmallLogo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2012-03-19T20:54:48.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Kyle\Documents\Visual Studio 2012\Projects\Ch16\MovieBrowser\MovieBrowser\Assets\SplashScreen.png">
+      <PackagePath>Assets\SplashScreen.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2012-03-19T20:54:48.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Kyle\Documents\Visual Studio 2012\Projects\Ch16\MovieBrowser\MovieBrowser\Assets\StoreLogo.png">
+      <PackagePath>Assets\StoreLogo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2012-03-19T20:54:48.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Kyle\Documents\Visual Studio 2012\Projects\Ch16\MovieBrowser\MovieBrowser\Assets\LightGray.png">
+      <PackagePath>Assets\LightGray.png</PackagePath>
+      <Modified>2012-01-27T13:21:16.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Kyle\Documents\Visual Studio 2012\Projects\Ch16\MovieBrowser\MovieBrowser\Assets\MediumGray.png">
+      <PackagePath>Assets\MediumGray.png</PackagePath>
+      <Modified>2012-01-27T13:21:16.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Kyle\Documents\Visual Studio 2012\Projects\Ch16\MovieBrowser\MovieBrowser\Assets\DarkGray.png">
+      <PackagePath>Assets\DarkGray.png</PackagePath>
+      <Modified>2012-01-27T13:21:16.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Kyle\Documents\Visual Studio 2012\Projects\Ch16\MovieBrowser\MovieBrowser\bin\Debug\Common\MovieBrowserStyles.xaml">
+      <PackagePath>Common\MovieBrowserStyles.xaml</PackagePath>
+      <Modified>2012-07-13T11:09:47.772</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Kyle\Documents\Visual Studio 2012\Projects\Ch16\MovieBrowser\MovieBrowser\bin\Debug\Common\StandardStyles.xaml">
+      <PackagePath>Common\StandardStyles.xaml</PackagePath>
+      <Modified>2012-04-24T00:03:16.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Kyle\Documents\Visual Studio 2012\Projects\Ch16\MovieBrowser\MovieBrowser\bin\Debug\GroupedItemsPage.xaml">
+      <PackagePath>GroupedItemsPage.xaml</PackagePath>
+      <Modified>2012-07-13T16:21:10.390</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Kyle\Documents\Visual Studio 2012\Projects\Ch16\MovieBrowser\MovieBrowser\bin\Debug\GroupDetailPage.xaml">
+      <PackagePath>GroupDetailPage.xaml</PackagePath>
+      <Modified>2012-07-13T19:09:11.714</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Kyle\Documents\Visual Studio 2012\Projects\Ch16\MovieBrowser\MovieBrowser\bin\Debug\ItemDetailPage.xaml">
+      <PackagePath>ItemDetailPage.xaml</PackagePath>
+      <Modified>2012-07-13T19:19:44.126</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Kyle\Documents\Visual Studio 2012\Projects\Ch16\MovieBrowser\MovieBrowser\bin\Debug\App.xaml">
+      <PackagePath>App.xaml</PackagePath>
+      <Modified>2012-07-13T16:20:07.909</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Kyle\Documents\Visual Studio 2012\Projects\Ch16\MovieBrowser\MovieBrowser\bin\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+      <Modified>2012-07-13T21:40:43.079</Modified>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>

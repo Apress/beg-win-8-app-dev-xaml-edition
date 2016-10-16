@@ -1,0 +1,1 @@
+c:\users\kyle\documents\visual studio 2012\Projects\Ch19\AccelerometerSample\AccelerometerSample\AccelerometerSample.csproj;neutral

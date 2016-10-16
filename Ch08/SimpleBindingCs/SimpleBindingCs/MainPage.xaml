@@ -1,0 +1,22 @@
+﻿<Page
+    x:Class="SimpleBindingCs.MainPage"
+    IsTabStop="false"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:SimpleBindingCs"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <StackPanel Background="{StaticResource ApplicationPageBackgroundThemeBrush}">
+        <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" Text="Product Search" Width="1366" Style="{StaticResource PageHeaderTextStyle}"/>
+        <TextBox x:Name="criteriaTextBox" HorizontalAlignment="Left" TextWrapping="Wrap" Text="" Width="1366"/>
+        <Button x:Name="searchButton" Content="Search" HorizontalAlignment="Left" Width="1366" Click="searchButton_Click"/>
+        <ListView x:Name="resultList" HorizontalAlignment="Left" Height="100" Width="1366"/>
+        <TextBox HorizontalAlignment="Left" TextWrapping="Wrap" Width="1366">
+            <TextBox.Text>
+                <Binding ElementName="resultList" Path="SelectedItem.Tag.Summary" Mode="TwoWay" />
+            </TextBox.Text>
+        </TextBox>
+    </StackPanel>
+</Page>

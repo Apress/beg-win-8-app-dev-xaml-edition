@@ -1,0 +1,1179 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PriInfo>
+	<ResourceMap name="Microsoft.Data.Services.Client.Metro" version="1.0" primary="true">
+		<Qualifiers/>
+		<ResourceMapSubtree name="System.Data.Services.Client">
+			<NamedResource name="ALinq_AnyAllNotSupportedInOrderBy" uri="ms-resource://Microsoft.Data.Services.Client.Metro/System.Data.Services.Client/ALinq_AnyAllNotSupportedInOrderBy">
+				<Candidate type="String">
+					<Value>The method '{0}' is not supported by the 'orderby' query option.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="ALinq_BinaryNotSupported" uri="ms-resource://Microsoft.Data.Services.Client.Metro/System.Data.Services.Client/ALinq_BinaryNotSupported">
+				<Candidate type="String">
+					<Value>The binary operator '{0}' is not supported.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="ALinq_CannotAddCountOption" uri="ms-resource://Microsoft.Data.Services.Client.Metro/System.Data.Services.Client/ALinq_CannotAddCountOption">
+				<Candidate type="String">
+					<Value>Cannot add count option to the resource set.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="ALinq_CannotAddCountOptionConflict" uri="ms-resource://Microsoft.Data.Services.Client.Metro/System.Data.Services.Client/ALinq_CannotAddCountOptionConflict">
+				<Candidate type="String">
+					<Value>Cannot add count option to the resource set because it would conflict with existing count options.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="ALinq_CannotConstructKnownEntityTypes" uri="ms-resource://Microsoft.Data.Services.Client.Metro/System.Data.Services.Client/ALinq_CannotConstructKnownEntityTypes">
+				<Candidate type="String">
+					<Value>Construction of entity type instances must use object initializer with default constructor.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="ALinq_CannotCreateConstantEntity" uri="ms-resource://Microsoft.Data.Services.Client.Metro/System.Data.Services.Client/ALinq_CannotCreateConstantEntity">
+				<Candidate type="String">
+					<Value>Referencing of local entity type instances not supported when projecting results.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="ALinq_CannotProjectWithExplicitExpansion" uri="ms-resource://Microsoft.Data.Services.Client.Metro/System.Data.Services.Client/ALinq_CannotProjectWithExplicitExpansion">
+				<Candidate type="String">
+					<Value>Cannot create projection while there is an explicit expansion specified on the same query.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="ALinq_CannotUseTypeFiltersMultipleTimes" uri="ms-resource://Microsoft.Data.Services.Client.Metro/System.Data.Services.Client/ALinq_CannotUseTypeFiltersMultipleTimes">
+				<Candidate type="String">
+					<Value>Non-redundant type filters (OfType&lt;T&gt;, C# 'as' and VB 'TryCast') can only be used once per resource set.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="ALinq_CanOnlyApplyOneKeyPredicate" uri="ms-resource://Microsoft.Data.Services.Client.Metro/System.Data.Services.Client/ALinq_CanOnlyApplyOneKeyPredicate">
+				<Candidate type="String">
+					<Value>Multiple key predicates cannot be specified for the same entity set.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="ALinq_CanOnlyProjectTheLeaf" uri="ms-resource://Microsoft.Data.Services.Client.Metro/System.Data.Services.Client/ALinq_CanOnlyProjectTheLeaf">
+				<Candidate type="String">
+					<Value>Can only project the last entity type in the query being translated.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="ALinq_CantAddAstoriaQueryOption" uri="ms-resource://Microsoft.Data.Services.Client.Metro/System.Data.Services.Client/ALinq_CantAddAstoriaQueryOption">
+				<Candidate type="String">
+					<Value>Can't add query option '{0}' because it would conflict with the query options from the translated Linq expression.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="ALinq_CantAddDuplicateQueryOption" uri="ms-resource://Microsoft.Data.Services.Client.Metro/System.Data.Services.Client/ALinq_CantAddDuplicateQueryOption">
+				<Candidate type="String">
+					<Value>Can't add duplicate query option '{0}'.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="ALinq_CantAddQueryOption" uri="ms-resource://Microsoft.Data.Services.Client.Metro/System.Data.Services.Client/ALinq_CantAddQueryOption">
+				<Candidate type="String">
+					<Value>Custom query option not allowed.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="ALinq_CantAddQueryOptionStartingWithDollarSign" uri="ms-resource://Microsoft.Data.Services.Client.Metro/System.Data.Services.Client/ALinq_CantAddQueryOptionStartingWithDollarSign">
+				<Candidate type="String">
+					<Value>Can't add query option '{0}' because it begins with reserved character '$'.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="ALinq_CantCastToUnsupportedPrimitive" uri="ms-resource://Microsoft.Data.Services.Client.Metro/System.Data.Services.Client/ALinq_CantCastToUnsupportedPrimitive">
+				<Candidate type="String">
+					<Value>Can't cast to unsupported type '{0}'</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="ALinq_CantExpand" uri="ms-resource://Microsoft.Data.Services.Client.Metro/System.Data.Services.Client/ALinq_CantExpand">
+				<Candidate type="String">
+					<Value>Expand query option not allowed.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="ALinq_CantNavigateWithoutKeyPredicate" uri="ms-resource://Microsoft.Data.Services.Client.Metro/System.Data.Services.Client/ALinq_CantNavigateWithoutKeyPredicate">
+				<Candidate type="String">
+					<Value>Individual properties can only be selected from a single resource or as part of a type. Specify a key predicate to restrict the entity set to a single instance or project the property into a named or anonymous type.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="ALinq_CantReferToPublicField" uri="ms-resource://Microsoft.Data.Services.Client.Metro/System.Data.Services.Client/ALinq_CantReferToPublicField">
+				<Candidate type="String">
+					<Value>Referencing public field '{0}' not supported in query option expression.  Use public property instead.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="ALinq_CantTranslateExpression" uri="ms-resource://Microsoft.Data.Services.Client.Metro/System.Data.Services.Client/ALinq_CantTranslateExpression">
+				<Candidate type="String">
+					<Value>The expression {0} is not supported.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="ALinq_CollectionMemberAccessNotSupportedInNavigation" uri="ms-resource://Microsoft.Data.Services.Client.Metro/System.Data.Services.Client/ALinq_CollectionMemberAccessNotSupportedInNavigation">
+				<Candidate type="String">
+					<Value>Navigation to members of the collection property '{0}' in a 'select' query expression is not supported.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="ALinq_CollectionPropertyNotSupportedInOrderBy" uri="ms-resource://Microsoft.Data.Services.Client.Metro/System.Data.Services.Client/ALinq_CollectionPropertyNotSupportedInOrderBy">
+				<Candidate type="String">
+					<Value>The collection property '{0}' cannot be used in an 'orderby' query expression. Collection properties are not supported by the 'orderby' query option.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="ALinq_CollectionPropertyNotSupportedInWhere" uri="ms-resource://Microsoft.Data.Services.Client.Metro/System.Data.Services.Client/ALinq_CollectionPropertyNotSupportedInWhere">
+				<Candidate type="String">
+					<Value>The collection property '{0}' cannot be used in a 'where' query expression. Collection properties are only supported as the source of 'any' or 'all' methods in a 'where' query option.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="ALinq_ConditionalNotSupported" uri="ms-resource://Microsoft.Data.Services.Client.Metro/System.Data.Services.Client/ALinq_ConditionalNotSupported">
+				<Candidate type="String">
+					<Value>The conditional expression is not supported.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="ALinq_ConstantNotSupported" uri="ms-resource://Microsoft.Data.Services.Client.Metro/System.Data.Services.Client/ALinq_ConstantNotSupported">
+				<Candidate type="String">
+					<Value>The constant for '{0}' is not supported.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="ALinq_CouldNotConvert" uri="ms-resource://Microsoft.Data.Services.Client.Metro/System.Data.Services.Client/ALinq_CouldNotConvert">
+				<Candidate type="String">
+					<Value>Could not convert constant {0} expression to string.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="ALinq_ExpressionCannotEndWithTypeAs" uri="ms-resource://Microsoft.Data.Services.Client.Metro/System.Data.Services.Client/ALinq_ExpressionCannotEndWithTypeAs">
+				<Candidate type="String">
+					<Value>Unsupported expression '{0}' in '{1}' method. Expression cannot end with TypeAs.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="ALinq_ExpressionNotSupportedInProjection" uri="ms-resource://Microsoft.Data.Services.Client.Metro/System.Data.Services.Client/ALinq_ExpressionNotSupportedInProjection">
+				<Candidate type="String">
+					<Value>Constructing or initializing instances of the type {0} with the expression {1} is not supported.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="ALinq_ExpressionNotSupportedInProjectionToEntity" uri="ms-resource://Microsoft.Data.Services.Client.Metro/System.Data.Services.Client/ALinq_ExpressionNotSupportedInProjectionToEntity">
+				<Candidate type="String">
+					<Value>Initializing instances of the entity type {0} with the expression {1} is not supported.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="ALinq_InvalidExpressionInNavigationPath" uri="ms-resource://Microsoft.Data.Services.Client.Metro/System.Data.Services.Client/ALinq_InvalidExpressionInNavigationPath">
+				<Candidate type="String">
+					<Value>The expression '{0}' is not a valid expression for navigation path. The only supported operations inside the lambda expression body are MemberAccess and TypeAs. The expression must contain at least one MemberAccess and it cannot end with TypeAs.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="ALinq_InvalidSourceForAnyAll" uri="ms-resource://Microsoft.Data.Services.Client.Metro/System.Data.Services.Client/ALinq_InvalidSourceForAnyAll">
+				<Candidate type="String">
+					<Value>The source parameter for the '{0}' method has to be either a navigation or a collection property.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="ALinq_InvocationNotSupported" uri="ms-resource://Microsoft.Data.Services.Client.Metro/System.Data.Services.Client/ALinq_InvocationNotSupported">
+				<Candidate type="String">
+					<Value>Invocation Expressions not supported.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="ALinq_LambdaNotSupported" uri="ms-resource://Microsoft.Data.Services.Client.Metro/System.Data.Services.Client/ALinq_LambdaNotSupported">
+				<Candidate type="String">
+					<Value>Lambda Expressions not supported.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="ALinq_LinkPropertyNotSupportedInExpression" uri="ms-resource://Microsoft.Data.Services.Client.Metro/System.Data.Services.Client/ALinq_LinkPropertyNotSupportedInExpression">
+				<Candidate type="String">
+					<Value>The property '{0}' of type 'DataServiceStreamLink' cannot be used in 'where' or 'orderby' query expressions. Properties of type 'DataServiceStreamLink' are not supported by these query options.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="ALinq_ListInitNotSupported" uri="ms-resource://Microsoft.Data.Services.Client.Metro/System.Data.Services.Client/ALinq_ListInitNotSupported">
+				<Candidate type="String">
+					<Value>List Init Expressions not supported.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="ALinq_MemberAccessNotSupported" uri="ms-resource://Microsoft.Data.Services.Client.Metro/System.Data.Services.Client/ALinq_MemberAccessNotSupported">
+				<Candidate type="String">
+					<Value>The member access of '{0}' is not supported.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="ALinq_MemberInitNotSupported" uri="ms-resource://Microsoft.Data.Services.Client.Metro/System.Data.Services.Client/ALinq_MemberInitNotSupported">
+				<Candidate type="String">
+					<Value>Member Init Expressions not supported.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="ALinq_MethodNotSupported" uri="ms-resource://Microsoft.Data.Services.Client.Metro/System.Data.Services.Client/ALinq_MethodNotSupported">
+				<Candidate type="String">
+					<Value>The method '{0}' is not supported.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="ALinq_MethodNotSupportedForMaxDataServiceVersionLessThanX" uri="ms-resource://Microsoft.Data.Services.Client.Metro/System.Data.Services.Client/ALinq_MethodNotSupportedForMaxDataServiceVersionLessThanX">
+				<Candidate type="String">
+					<Value>The method '{0}' is not supported when MaxProtocolVersion is less than '{1}'.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="ALinq_NewArrayNotSupported" uri="ms-resource://Microsoft.Data.Services.Client.Metro/System.Data.Services.Client/ALinq_NewArrayNotSupported">
+				<Candidate type="String">
+					<Value>New Array Expressions not supported.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="ALinq_NewNotSupported" uri="ms-resource://Microsoft.Data.Services.Client.Metro/System.Data.Services.Client/ALinq_NewNotSupported">
+				<Candidate type="String">
+					<Value>New Expressions not supported.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="ALinq_OfTypeArgumentNotAvailable" uri="ms-resource://Microsoft.Data.Services.Client.Metro/System.Data.Services.Client/ALinq_OfTypeArgumentNotAvailable">
+				<Candidate type="String">
+					<Value>The target type for an OfType filter could not be determined.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="ALinq_ParameterNotSupported" uri="ms-resource://Microsoft.Data.Services.Client.Metro/System.Data.Services.Client/ALinq_ParameterNotSupported">
+				<Candidate type="String">
+					<Value>The parameter expression is not supported.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="ALinq_ProjectionCanOnlyHaveOneProjection" uri="ms-resource://Microsoft.Data.Services.Client.Metro/System.Data.Services.Client/ALinq_ProjectionCanOnlyHaveOneProjection">
+				<Candidate type="String">
+					<Value>Cannot translate multiple Linq Select operations in a single 'select' query option.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="ALinq_ProjectionMemberAssignmentMismatch" uri="ms-resource://Microsoft.Data.Services.Client.Metro/System.Data.Services.Client/ALinq_ProjectionMemberAssignmentMismatch">
+				<Candidate type="String">
+					<Value>Cannot initialize an instance of entity type '{0}' because '{1}' and '{2}' do not refer to the same source entity.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="ALinq_ProjectionOnlyAllowedOnLeafNodes" uri="ms-resource://Microsoft.Data.Services.Client.Metro/System.Data.Services.Client/ALinq_ProjectionOnlyAllowedOnLeafNodes">
+				<Candidate type="String">
+					<Value>Can only specify 'select' query option after last navigation.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="ALinq_PropertyNamesMustMatchInProjections" uri="ms-resource://Microsoft.Data.Services.Client.Metro/System.Data.Services.Client/ALinq_PropertyNamesMustMatchInProjections">
+				<Candidate type="String">
+					<Value>Cannot assign the value from the {0} property to the {1} property.  When projecting results into a entity type, the property names of the source type and the target type must match for the properties being projected.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="ALinq_QueryOptionOutOfOrder" uri="ms-resource://Microsoft.Data.Services.Client.Metro/System.Data.Services.Client/ALinq_QueryOptionOutOfOrder">
+				<Candidate type="String">
+					<Value>The {0} query option cannot be specified after the {1} query option.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="ALinq_QueryOptionsOnlyAllowedOnLeafNodes" uri="ms-resource://Microsoft.Data.Services.Client.Metro/System.Data.Services.Client/ALinq_QueryOptionsOnlyAllowedOnLeafNodes">
+				<Candidate type="String">
+					<Value>Can only specify query options (orderby, where, take, skip) after last navigation.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="ALinq_QueryOptionsOnlyAllowedOnSingletons" uri="ms-resource://Microsoft.Data.Services.Client.Metro/System.Data.Services.Client/ALinq_QueryOptionsOnlyAllowedOnSingletons">
+				<Candidate type="String">
+					<Value>Cannot specify query options (orderby, where, take, skip, count) on single resource.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="ALinq_TranslationError" uri="ms-resource://Microsoft.Data.Services.Client.Metro/System.Data.Services.Client/ALinq_TranslationError">
+				<Candidate type="String">
+					<Value>Error translating Linq expression to URI: {0}</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="ALinq_TypeAsArgumentNotEntityType" uri="ms-resource://Microsoft.Data.Services.Client.Metro/System.Data.Services.Client/ALinq_TypeAsArgumentNotEntityType">
+				<Candidate type="String">
+					<Value>The type '{0}' is not an entity type. The target type for a TypeAs operator must be an entity type.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="ALinq_TypeAsNotSupportedForMaxDataServiceVersionLessThan3" uri="ms-resource://Microsoft.Data.Services.Client.Metro/System.Data.Services.Client/ALinq_TypeAsNotSupportedForMaxDataServiceVersionLessThan3">
+				<Candidate type="String">
+					<Value>The expression 'TypeAs' is not supported when MaxProtocolVersion is less than '3.0'.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="ALinq_TypeBinaryNotSupported" uri="ms-resource://Microsoft.Data.Services.Client.Metro/System.Data.Services.Client/ALinq_TypeBinaryNotSupported">
+				<Candidate type="String">
+					<Value>An operation between an expression and a type is not supported.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="ALinq_UnaryNotSupported" uri="ms-resource://Microsoft.Data.Services.Client.Metro/System.Data.Services.Client/ALinq_UnaryNotSupported">
+				<Candidate type="String">
+					<Value>The unary operator '{0}' is not supported.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="ALinq_UnsupportedExpression" uri="ms-resource://Microsoft.Data.Services.Client.Metro/System.Data.Services.Client/ALinq_UnsupportedExpression">
+				<Candidate type="String">
+					<Value>The expression type {0} is not supported.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="AtomMaterializer_CannotAssignNull" uri="ms-resource://Microsoft.Data.Services.Client.Metro/System.Data.Services.Client/AtomMaterializer_CannotAssignNull">
+				<Candidate type="String">
+					<Value>The null value from property '{0}' cannot be assigned to a type '{1}'.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="AtomMaterializer_CollectionExpectedCollection" uri="ms-resource://Microsoft.Data.Services.Client.Metro/System.Data.Services.Client/AtomMaterializer_CollectionExpectedCollection">
+				<Candidate type="String">
+					<Value>Materialization of top level collection expected ICollection&lt;&gt;, but actual type was {0}.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="AtomMaterializer_DataServiceCollectionNotSupportedForNonEntities" uri="ms-resource://Microsoft.Data.Services.Client.Metro/System.Data.Services.Client/AtomMaterializer_DataServiceCollectionNotSupportedForNonEntities">
+				<Candidate type="String">
+					<Value>A DataServiceCollection can only contain entity types. Primitive and complex types cannot be contained by this kind of collection.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="AtomMaterializer_EntryIntoCollectionMismatch" uri="ms-resource://Microsoft.Data.Services.Client.Metro/System.Data.Services.Client/AtomMaterializer_EntryIntoCollectionMismatch">
+				<Candidate type="String">
+					<Value>An entry of type '{0}' cannot be added to a collection that contains instances of type '{1}'. This may occur when an existing entry of a different type has the same identity value or when the same entity is projected into two different types in a single query.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="AtomMaterializer_EntryToAccessIsNull" uri="ms-resource://Microsoft.Data.Services.Client.Metro/System.Data.Services.Client/AtomMaterializer_EntryToAccessIsNull">
+				<Candidate type="String">
+					<Value>An entry returned by the navigation property '{0}' is null and cannot be initialized. You should check for a null value before accessing this property.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="AtomMaterializer_EntryToInitializeIsNull" uri="ms-resource://Microsoft.Data.Services.Client.Metro/System.Data.Services.Client/AtomMaterializer_EntryToInitializeIsNull">
+				<Candidate type="String">
+					<Value>An entry that contains the data required to create an instance of type '{0}' is null and cannot be initialized. You should check for a null value before accessing this entry.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="AtomMaterializer_InvalidCollectionItem" uri="ms-resource://Microsoft.Data.Services.Client.Metro/System.Data.Services.Client/AtomMaterializer_InvalidCollectionItem">
+				<Candidate type="String">
+					<Value>The element '{0}' is not a valid collection item. The name of the collection item element must be 'element' and must belong to the 'http://schemas.microsoft.com/ado/2007/08/dataservices' namespace.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="AtomMaterializer_InvalidContentTypeEncountered" uri="ms-resource://Microsoft.Data.Services.Client.Metro/System.Data.Services.Client/AtomMaterializer_InvalidContentTypeEncountered">
+				<Candidate type="String">
+					<Value>The response content type '{0}' is not currently supported.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="AtomMaterializer_InvalidEntityType" uri="ms-resource://Microsoft.Data.Services.Client.Metro/System.Data.Services.Client/AtomMaterializer_InvalidEntityType">
+				<Candidate type="String">
+					<Value>There is a type mismatch between the client and the service. Type '{0}' is an entity type, but the type in the response payload does not represent an entity type. Please ensure that types defined on the client match the data model of the service, or update the service reference on the client.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="AtomMaterializer_InvalidNonEntityType" uri="ms-resource://Microsoft.Data.Services.Client.Metro/System.Data.Services.Client/AtomMaterializer_InvalidNonEntityType">
+				<Candidate type="String">
+					<Value>There is a type mismatch between the client and the service. Type '{0}' is not an entity type, but the type in the response payload represents an entity type. Please ensure that types defined on the client match the data model of the service, or update the service reference on the client.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="AtomMaterializer_InvalidResponsePayload" uri="ms-resource://Microsoft.Data.Services.Client.Metro/System.Data.Services.Client/AtomMaterializer_InvalidResponsePayload">
+				<Candidate type="String">
+					<Value>The response payload is a not a valid response payload. Please make sure that the top level element is a valid Atom element or belongs to '{0}' namespace.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="AtomMaterializer_NoParameterlessCtorForCollectionProperty" uri="ms-resource://Microsoft.Data.Services.Client.Metro/System.Data.Services.Client/AtomMaterializer_NoParameterlessCtorForCollectionProperty">
+				<Candidate type="String">
+					<Value>Collection property '{0}' cannot be created because the type '{1}' does not have a public parameterless constructor.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="AtomMaterializer_ProjectEntityTypeMismatch" uri="ms-resource://Microsoft.Data.Services.Client.Metro/System.Data.Services.Client/AtomMaterializer_ProjectEntityTypeMismatch">
+				<Candidate type="String">
+					<Value>An entity of type '{0}' cannot be projected because there is already an instance of type '{1}' for '{2}'.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="AtomMaterializer_PropertyMissing" uri="ms-resource://Microsoft.Data.Services.Client.Metro/System.Data.Services.Client/AtomMaterializer_PropertyMissing">
+				<Candidate type="String">
+					<Value>The expected property '{0}' could not be found while processing the Atom entry '{1}'. Check for null before accessing this property.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="AtomMaterializer_PropertyNotExpectedEntry" uri="ms-resource://Microsoft.Data.Services.Client.Metro/System.Data.Services.Client/AtomMaterializer_PropertyNotExpectedEntry">
+				<Candidate type="String">
+					<Value>Property '{0}' of entity '{1}' is not an entity.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="AtomParser_SingleEntry_ExpectedFeedOrEntry" uri="ms-resource://Microsoft.Data.Services.Client.Metro/System.Data.Services.Client/AtomParser_SingleEntry_ExpectedFeedOrEntry">
+				<Candidate type="String">
+					<Value>Expected an Atom feed or entry in the response from the server, but found an unexpected element instead.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="AtomParser_SingleEntry_MultipleFound" uri="ms-resource://Microsoft.Data.Services.Client.Metro/System.Data.Services.Client/AtomParser_SingleEntry_MultipleFound">
+				<Candidate type="String">
+					<Value>Expected exactly one Atom entry in the response from the server, but more than one was found.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="AtomParser_SingleEntry_NoneFound" uri="ms-resource://Microsoft.Data.Services.Client.Metro/System.Data.Services.Client/AtomParser_SingleEntry_NoneFound">
+				<Candidate type="String">
+					<Value>Expected exactly one Atom entry in the response from the server, but none was found.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="Batch_ExpectedContentType" uri="ms-resource://Microsoft.Data.Services.Client.Metro/System.Data.Services.Client/Batch_ExpectedContentType">
+				<Candidate type="String">
+					<Value>The expected content type for a batch requests is "multipart/mixed;boundary=batch" not "{0}".</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="Batch_ExpectedResponse" uri="ms-resource://Microsoft.Data.Services.Client.Metro/System.Data.Services.Client/Batch_ExpectedResponse">
+				<Candidate type="String">
+					<Value>The POST request expected a response with content. ID={0}</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="Batch_IncompleteResponseCount" uri="ms-resource://Microsoft.Data.Services.Client.Metro/System.Data.Services.Client/Batch_IncompleteResponseCount">
+				<Candidate type="String">
+					<Value>Not all requests in the batch had a response.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="Batch_UnexpectedContent" uri="ms-resource://Microsoft.Data.Services.Client.Metro/System.Data.Services.Client/Batch_UnexpectedContent">
+				<Candidate type="String">
+					<Value>The web response contained unexpected sections. ID={0}</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="ClientTypeCache_NonEntityTypeCannotContainEntityProperties" uri="ms-resource://Microsoft.Data.Services.Client.Metro/System.Data.Services.Client/ClientTypeCache_NonEntityTypeCannotContainEntityProperties">
+				<Candidate type="String">
+					<Value>The property '{0}' is of entity type and it cannot be a property of the type '{1}', which is not of entity type.  Only entity types can contain navigation properties.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="ClientType_Ambiguous" uri="ms-resource://Microsoft.Data.Services.Client.Metro/System.Data.Services.Client/ClientType_Ambiguous">
+				<Candidate type="String">
+					<Value>Resolving type from '{0}' that inherits from '{1}' is ambiguous.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="ClientType_CollectionOfCollectionNotSupported" uri="ms-resource://Microsoft.Data.Services.Client.Metro/System.Data.Services.Client/ClientType_CollectionOfCollectionNotSupported">
+				<Candidate type="String">
+					<Value>Collection properties of a collection type are not supported.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="ClientType_CollectionPropertyNotSupportedInV2AndBelow" uri="ms-resource://Microsoft.Data.Services.Client.Metro/System.Data.Services.Client/ClientType_CollectionPropertyNotSupportedInV2AndBelow">
+				<Candidate type="String">
+					<Value>The type '{0}' has a property '{1}' which is a collection property. Collection properties are only supported in 'V3' version of the protocol and above.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="ClientType_KeysMustBeSimpleTypes" uri="ms-resource://Microsoft.Data.Services.Client.Metro/System.Data.Services.Client/ClientType_KeysMustBeSimpleTypes">
+				<Candidate type="String">
+					<Value>{0} has key properties declared on a non-simple type.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="ClientType_KeysOnDifferentDeclaredType" uri="ms-resource://Microsoft.Data.Services.Client.Metro/System.Data.Services.Client/ClientType_KeysOnDifferentDeclaredType">
+				<Candidate type="String">
+					<Value>{0} has key properties declared at different levels within its type hierarchy.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="ClientType_MissingMediaEntryProperty" uri="ms-resource://Microsoft.Data.Services.Client.Metro/System.Data.Services.Client/ClientType_MissingMediaEntryProperty">
+				<Candidate type="String">
+					<Value>Type '{0}' has a MediaEntry attribute that references a property called '{1}'. However, this type does not have a property '{1}'.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="ClientType_MissingMimeTypeDataProperty" uri="ms-resource://Microsoft.Data.Services.Client.Metro/System.Data.Services.Client/ClientType_MissingMimeTypeDataProperty">
+				<Candidate type="String">
+					<Value>Type '{0}' has a MimeTypeProperty attribute that references the data property '{1}'. However, this type does not have a property '{1}'.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="ClientType_MissingMimeTypeProperty" uri="ms-resource://Microsoft.Data.Services.Client.Metro/System.Data.Services.Client/ClientType_MissingMimeTypeProperty">
+				<Candidate type="String">
+					<Value>Type '{0}' has a MimeTypeProperty attribute that references the MIME type property '{1}'. However, this type does not have a property '{1}'.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="ClientType_MissingOpenProperty" uri="ms-resource://Microsoft.Data.Services.Client.Metro/System.Data.Services.Client/ClientType_MissingOpenProperty">
+				<Candidate type="String">
+					<Value>The open object property '{0}:{1}' is not defined.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="ClientType_MissingProperty" uri="ms-resource://Microsoft.Data.Services.Client.Metro/System.Data.Services.Client/ClientType_MissingProperty">
+				<Candidate type="String">
+					<Value>The closed type {0} does not have a corresponding {1} settable property.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="ClientType_MultipleImplementationNotSupported" uri="ms-resource://Microsoft.Data.Services.Client.Metro/System.Data.Services.Client/ClientType_MultipleImplementationNotSupported">
+				<Candidate type="String">
+					<Value>Multiple implementations of ICollection&lt;T&gt; is not supported.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="Clienttype_MultipleOpenProperty" uri="ms-resource://Microsoft.Data.Services.Client.Metro/System.Data.Services.Client/Clienttype_MultipleOpenProperty">
+				<Candidate type="String">
+					<Value>{0} has multiple definitions for OpenObjectAttribute.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="ClientType_MultipleTypesWithSameName" uri="ms-resource://Microsoft.Data.Services.Client.Metro/System.Data.Services.Client/ClientType_MultipleTypesWithSameName">
+				<Candidate type="String">
+					<Value>Multiple types were found with the same name '{0}'. Type names must be unique.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="ClientType_NoSettableFields" uri="ms-resource://Microsoft.Data.Services.Client.Metro/System.Data.Services.Client/ClientType_NoSettableFields">
+				<Candidate type="String">
+					<Value>The type '{0}' has no settable properties.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="ClientType_NullOpenProperties" uri="ms-resource://Microsoft.Data.Services.Client.Metro/System.Data.Services.Client/ClientType_NullOpenProperties">
+				<Candidate type="String">
+					<Value>The open type property '{0}' returned a null instance.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="ClientType_UnsupportedType" uri="ms-resource://Microsoft.Data.Services.Client.Metro/System.Data.Services.Client/ClientType_UnsupportedType">
+				<Candidate type="String">
+					<Value>The type '{0}' is not supported by the client library.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="Collection_ComplexTypesInCollectionOfPrimitiveTypesNotAllowed" uri="ms-resource://Microsoft.Data.Services.Client.Metro/System.Data.Services.Client/Collection_ComplexTypesInCollectionOfPrimitiveTypesNotAllowed">
+				<Candidate type="String">
+					<Value>A collection property of primitive types cannot contain an item of a complex type.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="Collection_NullCollectionItemsNotSupported" uri="ms-resource://Microsoft.Data.Services.Client.Metro/System.Data.Services.Client/Collection_NullCollectionItemsNotSupported">
+				<Candidate type="String">
+					<Value>An item in the collection property has a null value. Collection properties that contain items with null values are not supported.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="Collection_NullCollectionNotSupported" uri="ms-resource://Microsoft.Data.Services.Client.Metro/System.Data.Services.Client/Collection_NullCollectionNotSupported">
+				<Candidate type="String">
+					<Value>The value of the property '{0}' is null. Properties that are a collection type of primitive or complex types cannot be null.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="Collection_NullCollectionReference" uri="ms-resource://Microsoft.Data.Services.Client.Metro/System.Data.Services.Client/Collection_NullCollectionReference">
+				<Candidate type="String">
+					<Value>{0}.{1} must return a non-null open property collection.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="Collection_NullNonPropertyCollectionNotSupported" uri="ms-resource://Microsoft.Data.Services.Client.Metro/System.Data.Services.Client/Collection_NullNonPropertyCollectionNotSupported">
+				<Candidate type="String">
+					<Value>The value of the collection of item type '{0}' is null. A collection cannot have a null value.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="Collection_PrimitiveTypesInCollectionOfComplexTypesNotAllowed" uri="ms-resource://Microsoft.Data.Services.Client.Metro/System.Data.Services.Client/Collection_PrimitiveTypesInCollectionOfComplexTypesNotAllowed">
+				<Candidate type="String">
+					<Value>A collection property of complex types cannot contain an item of a primitive type.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="Content_EntityIsNotEntityType" uri="ms-resource://Microsoft.Data.Services.Client.Metro/System.Data.Services.Client/Content_EntityIsNotEntityType">
+				<Candidate type="String">
+					<Value>This operation requires the entity to be of an Entity Type, either mark its key properties, or attribute the class with DataServiceEntityAttribute</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="Content_EntityWithoutKey" uri="ms-resource://Microsoft.Data.Services.Client.Metro/System.Data.Services.Client/Content_EntityWithoutKey">
+				<Candidate type="String">
+					<Value>This operation requires the entity be of an Entity Type, and has at least one key property.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="Context_AddLinkCollectionOnly" uri="ms-resource://Microsoft.Data.Services.Client.Metro/System.Data.Services.Client/Context_AddLinkCollectionOnly">
+				<Candidate type="String">
+					<Value>AddLink and DeleteLink methods only work when the sourceProperty is a collection.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="Context_AddRelatedObjectCollectionOnly" uri="ms-resource://Microsoft.Data.Services.Client.Metro/System.Data.Services.Client/Context_AddRelatedObjectCollectionOnly">
+				<Candidate type="String">
+					<Value>AddRelatedObject method only works when the sourceProperty is a collection.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="Context_AddRelatedObjectSourceDeleted" uri="ms-resource://Microsoft.Data.Services.Client.Metro/System.Data.Services.Client/Context_AddRelatedObjectSourceDeleted">
+				<Candidate type="String">
+					<Value>AddRelatedObject method only works if the source entity is in a non-deleted state.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="Context_AsyncAlreadyDone" uri="ms-resource://Microsoft.Data.Services.Client.Metro/System.Data.Services.Client/Context_AsyncAlreadyDone">
+				<Candidate type="String">
+					<Value>The asynchronous result has already been completed.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="Context_BaseUri" uri="ms-resource://Microsoft.Data.Services.Client.Metro/System.Data.Services.Client/Context_BaseUri">
+				<Candidate type="String">
+					<Value>Expected an absolute, well formed http URL without a query or fragment.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="Context_BaseUriRequired" uri="ms-resource://Microsoft.Data.Services.Client.Metro/System.Data.Services.Client/Context_BaseUriRequired">
+				<Candidate type="String">
+					<Value>You must set the BaseUri property before you perform this operation.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="Context_BatchExecuteError" uri="ms-resource://Microsoft.Data.Services.Client.Metro/System.Data.Services.Client/Context_BatchExecuteError">
+				<Candidate type="String">
+					<Value>An error occurred for this query during batch execution.  See the inner exception for details.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="Context_BatchNotSupportedForMediaLink" uri="ms-resource://Microsoft.Data.Services.Client.Metro/System.Data.Services.Client/Context_BatchNotSupportedForMediaLink">
+				<Candidate type="String">
+					<Value>Saving entities with the [MediaEntry] attribute is not currently supported in batch mode. Use non-batched mode instead.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="Context_BatchNotSupportedForNamedStreams" uri="ms-resource://Microsoft.Data.Services.Client.Metro/System.Data.Services.Client/Context_BatchNotSupportedForNamedStreams">
+				<Candidate type="String">
+					<Value>Changes cannot be saved as a batch when an entity has one or more streams associated with it. Retry the SaveChanges operation without enabling the SaveChangesOptions.Batch option.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="Context_BodyOperationParametersNotAllowedWithGet" uri="ms-resource://Microsoft.Data.Services.Client.Metro/System.Data.Services.Client/Context_BodyOperationParametersNotAllowedWithGet">
+				<Candidate type="String">
+					<Value>OperationParameter of type BodyOperationParameter cannot be specified when the HttpMethod is set to GET.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="Context_BothLocationAndIdMustBeSpecified" uri="ms-resource://Microsoft.Data.Services.Client.Metro/System.Data.Services.Client/Context_BothLocationAndIdMustBeSpecified">
+				<Candidate type="String">
+					<Value>The response should have both 'Location' and 'DataServiceId' headers or the response should not have any of these headers.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="Context_CannotConvertKey" uri="ms-resource://Microsoft.Data.Services.Client.Metro/System.Data.Services.Client/Context_CannotConvertKey">
+				<Candidate type="String">
+					<Value>Unable to convert value '{0}' into a key string for a URI.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="Context_ChildResourceExists" uri="ms-resource://Microsoft.Data.Services.Client.Metro/System.Data.Services.Client/Context_ChildResourceExists">
+				<Candidate type="String">
+					<Value>Attempt to delete a link between two objects failed because the identity of the target object of the link depends on the source object of the link.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="Context_ContentTypeRequiredForNamedStream" uri="ms-resource://Microsoft.Data.Services.Client.Metro/System.Data.Services.Client/Context_ContentTypeRequiredForNamedStream">
+				<Candidate type="String">
+					<Value>The ContentType value for a named stream cannot be null or an empty string.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="Context_DidNotOriginateAsync" uri="ms-resource://Microsoft.Data.Services.Client.Metro/System.Data.Services.Client/Context_DidNotOriginateAsync">
+				<Candidate type="String">
+					<Value>The current object did not originate the async result.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="Context_DifferentEntityAlreadyContained" uri="ms-resource://Microsoft.Data.Services.Client.Metro/System.Data.Services.Client/Context_DifferentEntityAlreadyContained">
+				<Candidate type="String">
+					<Value>The context is already tracking a different entity with the same resource Uri.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="Context_DuplicateBodyOperationParameterName" uri="ms-resource://Microsoft.Data.Services.Client.Metro/System.Data.Services.Client/Context_DuplicateBodyOperationParameterName">
+				<Candidate type="String">
+					<Value>Multiple body operation parameters were found with the same name. Body operation parameter names must be unique.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="Context_DuplicateUriOperationParameterName" uri="ms-resource://Microsoft.Data.Services.Client.Metro/System.Data.Services.Client/Context_DuplicateUriOperationParameterName">
+				<Candidate type="String">
+					<Value>Multiple uri operation parameters were found with the same name. Uri operation parameter names must be unique.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="Context_EndExecuteExpectedVoidResponse" uri="ms-resource://Microsoft.Data.Services.Client.Metro/System.Data.Services.Client/Context_EndExecuteExpectedVoidResponse">
+				<Candidate type="String">
+					<Value>EndExecute overload for void service operations and actions received a non-void response from the server.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="Context_EntityAlreadyContained" uri="ms-resource://Microsoft.Data.Services.Client.Metro/System.Data.Services.Client/Context_EntityAlreadyContained">
+				<Candidate type="String">
+					<Value>The context is already tracking the entity.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="Context_EntityDoesNotContainNamedStream" uri="ms-resource://Microsoft.Data.Services.Client.Metro/System.Data.Services.Client/Context_EntityDoesNotContainNamedStream">
+				<Candidate type="String">
+					<Value>The entity does not have a stream named '{0}'. Make sure that the name of the stream is correct.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="Context_EntityNotContained" uri="ms-resource://Microsoft.Data.Services.Client.Metro/System.Data.Services.Client/Context_EntityNotContained">
+				<Candidate type="String">
+					<Value>The context is not currently tracking the entity.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="Context_EntityNotMediaLinkEntry" uri="ms-resource://Microsoft.Data.Services.Client.Metro/System.Data.Services.Client/Context_EntityNotMediaLinkEntry">
+				<Candidate type="String">
+					<Value>This operation requires that the specified entity be a Media Link Entry and that the ReadStreamUri be available. However, the specified entity either is not a Media Link Entry or does not have a valid ReadStreamUri value. If the entity is a Media Link Entry, re-query the data service for this entity to obtain a valid ReadStreamUri value.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="Context_EntitySetName" uri="ms-resource://Microsoft.Data.Services.Client.Metro/System.Data.Services.Client/Context_EntitySetName">
+				<Candidate type="String">
+					<Value>Expected a relative URL path without query or fragment.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="Context_ExecuteExpectsGetOrPost" uri="ms-resource://Microsoft.Data.Services.Client.Metro/System.Data.Services.Client/Context_ExecuteExpectsGetOrPost">
+				<Candidate type="String">
+					<Value>The HttpMethod must be GET or POST.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="Context_InternalError" uri="ms-resource://Microsoft.Data.Services.Client.Metro/System.Data.Services.Client/Context_InternalError">
+				<Candidate type="String">
+					<Value>System.Data.Services.Client internal error {0}.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="Context_LinkResourceInsertFailure" uri="ms-resource://Microsoft.Data.Services.Client.Metro/System.Data.Services.Client/Context_LinkResourceInsertFailure">
+				<Candidate type="String">
+					<Value>One of the link's resources failed to insert.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="Context_LocationHeaderExpectsAbsoluteUri" uri="ms-resource://Microsoft.Data.Services.Client.Metro/System.Data.Services.Client/Context_LocationHeaderExpectsAbsoluteUri">
+				<Candidate type="String">
+					<Value>The 'Location' header value specified in the response must be an absolute URI.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="Context_MissingOperationParameterName" uri="ms-resource://Microsoft.Data.Services.Client.Metro/System.Data.Services.Client/Context_MissingOperationParameterName">
+				<Candidate type="String">
+					<Value>The Name property of an OperationParameter must be set to a non-null, non-empty string.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="Context_MissingSelfAndEditLinkForNamedStream" uri="ms-resource://Microsoft.Data.Services.Client.Metro/System.Data.Services.Client/Context_MissingSelfAndEditLinkForNamedStream">
+				<Candidate type="String">
+					<Value>There is no self-link or edit-media link for the stream named '{0}'. Make sure that either the self-link or edit-media link is specified for this stream.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="Context_MLEWithoutSaveStream" uri="ms-resource://Microsoft.Data.Services.Client.Metro/System.Data.Services.Client/Context_MLEWithoutSaveStream">
+				<Candidate type="String">
+					<Value>The entity type {0} is marked with MediaEntry attribute but no save stream was set for the entity.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="Context_NoContentTypeForMediaLink" uri="ms-resource://Microsoft.Data.Services.Client.Metro/System.Data.Services.Client/Context_NoContentTypeForMediaLink">
+				<Candidate type="String">
+					<Value>Media link object of type '{0}' is configured to use the MIME type specified in the property '{1}'. However, that property's value is null or empty.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="Context_NoLoadWithInsertEnd" uri="ms-resource://Microsoft.Data.Services.Client.Metro/System.Data.Services.Client/Context_NoLoadWithInsertEnd">
+				<Candidate type="String">
+					<Value>The context can not load the related collection or reference for objects in the added state.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="Context_NoRelationWithDeleteEnd" uri="ms-resource://Microsoft.Data.Services.Client.Metro/System.Data.Services.Client/Context_NoRelationWithDeleteEnd">
+				<Candidate type="String">
+					<Value>One or both of the ends of the relationship is in the deleted state.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="Context_NoRelationWithInsertEnd" uri="ms-resource://Microsoft.Data.Services.Client.Metro/System.Data.Services.Client/Context_NoRelationWithInsertEnd">
+				<Candidate type="String">
+					<Value>One or both of the ends of the relationship is in the added state.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="Context_NullElementInOperationParameterArray" uri="ms-resource://Microsoft.Data.Services.Client.Metro/System.Data.Services.Client/Context_NullElementInOperationParameterArray">
+				<Candidate type="String">
+					<Value>The operation parameters array contains a null element which is not allowed.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="Context_NullKeysAreNotSupported" uri="ms-resource://Microsoft.Data.Services.Client.Metro/System.Data.Services.Client/Context_NullKeysAreNotSupported">
+				<Candidate type="String">
+					<Value>The serialized resource has a null value in key member '{0}'. Null values are not supported in key members.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="Context_OperationCanceled" uri="ms-resource://Microsoft.Data.Services.Client.Metro/System.Data.Services.Client/Context_OperationCanceled">
+				<Candidate type="String">
+					<Value>The operation has been canceled.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="Context_PropertyNotSupportedForMaxDataServiceVersionGreaterThanX" uri="ms-resource://Microsoft.Data.Services.Client.Metro/System.Data.Services.Client/Context_PropertyNotSupportedForMaxDataServiceVersionGreaterThanX">
+				<Candidate type="String">
+					<Value>The property '{0}' is not supported when MaxProtocolVersion is greater than '{1}'.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="Context_RelationAlreadyContained" uri="ms-resource://Microsoft.Data.Services.Client.Metro/System.Data.Services.Client/Context_RelationAlreadyContained">
+				<Candidate type="String">
+					<Value>The context is already tracking the relationship.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="Context_RelationNotRefOrCollection" uri="ms-resource://Microsoft.Data.Services.Client.Metro/System.Data.Services.Client/Context_RelationNotRefOrCollection">
+				<Candidate type="String">
+					<Value>The sourceProperty is not a reference or collection of the target's object type.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="Context_RequestUriIsRelativeBaseUriRequired" uri="ms-resource://Microsoft.Data.Services.Client.Metro/System.Data.Services.Client/Context_RequestUriIsRelativeBaseUriRequired">
+				<Candidate type="String">
+					<Value>Because the requestUri is a relative Uri, you must set the BaseUri property on the DataServiceContext.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="Context_RequestVersionIsBiggerThanProtocolVersion" uri="ms-resource://Microsoft.Data.Services.Client.Metro/System.Data.Services.Client/Context_RequestVersionIsBiggerThanProtocolVersion">
+				<Candidate type="String">
+					<Value>The request requires that version {0} of the protocol be used, but the MaxProtocolVersion of the data service context is set to {1}. Set the MaxProtocolVersion to the higher version, and then retry the operation.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="Context_ResolveEntitySetOrBaseUriRequired" uri="ms-resource://Microsoft.Data.Services.Client.Metro/System.Data.Services.Client/Context_ResolveEntitySetOrBaseUriRequired">
+				<Candidate type="String">
+					<Value>The ResolveEntitySet function must return a non-null Uri for the EntitySet '{0}', otherwise you must set the BaseUri property.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="Context_ResolveReturnedInvalidUri" uri="ms-resource://Microsoft.Data.Services.Client.Metro/System.Data.Services.Client/Context_ResolveReturnedInvalidUri">
+				<Candidate type="String">
+					<Value>The Uri that is returned by the ResolveEntitySet function must be an absolute, well-formed URL with an "http" or "https" scheme name and without any query strings or fragment identifiers.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="Context_ResponseVersionIsBiggerThanProtocolVersion" uri="ms-resource://Microsoft.Data.Services.Client.Metro/System.Data.Services.Client/Context_ResponseVersionIsBiggerThanProtocolVersion">
+				<Candidate type="String">
+					<Value>The response version is {0}, but the MaxProtocolVersion of the data service context is set to {1}. Set the MaxProtocolVersion to the version required by the response, and then retry the request. If the client does not support the required protocol version, then upgrade the client.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="Context_SetLinkReferenceOnly" uri="ms-resource://Microsoft.Data.Services.Client.Metro/System.Data.Services.Client/Context_SetLinkReferenceOnly">
+				<Candidate type="String">
+					<Value>SetLink method only works when the sourceProperty is not a collection.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="Context_SetSaveStreamOnInvalidEntityState" uri="ms-resource://Microsoft.Data.Services.Client.Metro/System.Data.Services.Client/Context_SetSaveStreamOnInvalidEntityState">
+				<Candidate type="String">
+					<Value>Calling SetSaveStream on an entity with state '{0}' is not allowed.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="Context_SetSaveStreamOnMediaEntryProperty" uri="ms-resource://Microsoft.Data.Services.Client.Metro/System.Data.Services.Client/Context_SetSaveStreamOnMediaEntryProperty">
+				<Candidate type="String">
+					<Value>Can't use SetSaveStream on entity with type {0} which has a media entry property defined.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="Context_SetSaveStreamWithoutEditMediaLink" uri="ms-resource://Microsoft.Data.Services.Client.Metro/System.Data.Services.Client/Context_SetSaveStreamWithoutEditMediaLink">
+				<Candidate type="String">
+					<Value>There is no edit-media link for the entity's media stream. Make sure that the edit-media link is specified for this stream.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="Context_SetSaveStreamWithoutNamedStreamEditLink" uri="ms-resource://Microsoft.Data.Services.Client.Metro/System.Data.Services.Client/Context_SetSaveStreamWithoutNamedStreamEditLink">
+				<Candidate type="String">
+					<Value>The stream named '{0}' cannot be modified because it does not have an edit-media link. Make sure that the stream name is correct and that an edit-media link for this stream is included in the entry element in the response.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="Context_TrackingExpectsAbsoluteUri" uri="ms-resource://Microsoft.Data.Services.Client.Metro/System.Data.Services.Client/Context_TrackingExpectsAbsoluteUri">
+				<Candidate type="String">
+					<Value>The identity value specified by either the Atom id element or the DataServiceId header must be an absolute URI.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="Context_UnexpectedZeroRawRead" uri="ms-resource://Microsoft.Data.Services.Client.Metro/System.Data.Services.Client/Context_UnexpectedZeroRawRead">
+				<Candidate type="String">
+					<Value>Unexpected result (&lt;= 0) from stream.Read() while reading raw data for this property.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="Context_VersionNotSupported" uri="ms-resource://Microsoft.Data.Services.Client.Metro/System.Data.Services.Client/Context_VersionNotSupported">
+				<Candidate type="String">
+					<Value>Response version '{0}' is not supported. The only supported versions are: {1}.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="DataBinding_BindingOperation_ArrayItemNotEntity" uri="ms-resource://Microsoft.Data.Services.Client.Metro/System.Data.Services.Client/DataBinding_BindingOperation_ArrayItemNotEntity">
+				<Candidate type="String">
+					<Value>A value provided during '{0}' operation on DataServiceCollection is not of an entity type with key.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="DataBinding_BindingOperation_ArrayItemNull" uri="ms-resource://Microsoft.Data.Services.Client.Metro/System.Data.Services.Client/DataBinding_BindingOperation_ArrayItemNull">
+				<Candidate type="String">
+					<Value>Null values are disallowed during '{0}' operations on DataServiceCollection.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="DataBinding_BindingOperation_DetachedSource" uri="ms-resource://Microsoft.Data.Services.Client.Metro/System.Data.Services.Client/DataBinding_BindingOperation_DetachedSource">
+				<Candidate type="String">
+					<Value>Add/Update/Delete operation cannot be performed on a child entity, if the parent entity is already detached.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="DataBinding_CollectionAssociatedWithMultipleEntities" uri="ms-resource://Microsoft.Data.Services.Client.Metro/System.Data.Services.Client/DataBinding_CollectionAssociatedWithMultipleEntities">
+				<Candidate type="String">
+					<Value>An attempt to track a collection object of type '{0}' failed because the collection object is already being tracked.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="DataBinding_CollectionChangedUnknownActionCollection" uri="ms-resource://Microsoft.Data.Services.Client.Metro/System.Data.Services.Client/DataBinding_CollectionChangedUnknownActionCollection">
+				<Candidate type="String">
+					<Value>Unexpected action '{0}' on the OnCollectionChanged event raised by a collection object of type '{1}'.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="DataBinding_CollectionPropertySetterValueHasObserver" uri="ms-resource://Microsoft.Data.Services.Client.Metro/System.Data.Services.Client/DataBinding_CollectionPropertySetterValueHasObserver">
+				<Candidate type="String">
+					<Value>Setting an instance of DataServiceCollection to an entity property is disallowed if the instance is already being tracked. Error occurred on property '{0}' for entity type '{1}'.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="DataBinding_ComplexObjectAssociatedWithMultipleEntities" uri="ms-resource://Microsoft.Data.Services.Client.Metro/System.Data.Services.Client/DataBinding_ComplexObjectAssociatedWithMultipleEntities">
+				<Candidate type="String">
+					<Value>An attempt to track a complex object of type '{0}' failed because the complex object is already being tracked.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="DataBinding_DataServiceCollectionArgumentMustHaveEntityType" uri="ms-resource://Microsoft.Data.Services.Client.Metro/System.Data.Services.Client/DataBinding_DataServiceCollectionArgumentMustHaveEntityType">
+				<Candidate type="String">
+					<Value>The DataServiceCollection to be tracked must contain entity typed elements with at least one key property. The element type '{0}' does not have any key property.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="DataBinding_DataServiceCollectionChangedUnknownActionCollection" uri="ms-resource://Microsoft.Data.Services.Client.Metro/System.Data.Services.Client/DataBinding_DataServiceCollectionChangedUnknownActionCollection">
+				<Candidate type="String">
+					<Value>Unexpected action '{0}' on the OnCollectionChanged event raised by DataServiceCollection.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="DataBinding_EntityAlreadyInCollection" uri="ms-resource://Microsoft.Data.Services.Client.Metro/System.Data.Services.Client/DataBinding_EntityAlreadyInCollection">
+				<Candidate type="String">
+					<Value>An attempt was made to add entity of type '{0}' to a collection in which the same entity already exists.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="DataBinding_NotifyCollectionChangedNotImpl" uri="ms-resource://Microsoft.Data.Services.Client.Metro/System.Data.Services.Client/DataBinding_NotifyCollectionChangedNotImpl">
+				<Candidate type="String">
+					<Value>An attempt to track an entity or complex type failed because the entity or complex type contains a collection property of type '{0}' that does not implement the INotifyCollectionChanged interface.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="DataBinding_NotifyPropertyChangedNotImpl" uri="ms-resource://Microsoft.Data.Services.Client.Metro/System.Data.Services.Client/DataBinding_NotifyPropertyChangedNotImpl">
+				<Candidate type="String">
+					<Value>An attempt to track an entity or complex type failed because the entity or complex type '{0}' does not implement the INotifyPropertyChanged interface.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="DataBinding_Util_UnknownEntitySetName" uri="ms-resource://Microsoft.Data.Services.Client.Metro/System.Data.Services.Client/DataBinding_Util_UnknownEntitySetName">
+				<Candidate type="String">
+					<Value>Entity set name has not been provided for an entity of type '{0}'.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="DataServiceCollection_CannotDetermineContextFromItems" uri="ms-resource://Microsoft.Data.Services.Client.Metro/System.Data.Services.Client/DataServiceCollection_CannotDetermineContextFromItems">
+				<Candidate type="String">
+					<Value>The DataServiceContext to which the DataServiceCollection instance belongs could not be determined. The DataServiceContext must either be supplied in the DataServiceCollection constructor or be used to create the DataServiceQuery or QueryOperationResponse object that is the source of the items in the DataServiceCollection.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="DataServiceCollection_CannotStopTrackingChildCollection" uri="ms-resource://Microsoft.Data.Services.Client.Metro/System.Data.Services.Client/DataServiceCollection_CannotStopTrackingChildCollection">
+				<Candidate type="String">
+					<Value>The tracking of DataServiceCollection can not be stopped for child collections.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="DataServiceCollection_DataServiceQueryCanNotBeEnumerated" uri="ms-resource://Microsoft.Data.Services.Client.Metro/System.Data.Services.Client/DataServiceCollection_DataServiceQueryCanNotBeEnumerated">
+				<Candidate type="String">
+					<Value>Parameters of type DataServiceQuery&lt;T&gt; can not be used as the input enumerators for DataServiceCollection. Try using result of DataServiceQuery&lt;T&gt;.EndExecute instead.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="DataServiceCollection_InsertIntoTrackedButNotLoadedCollection" uri="ms-resource://Microsoft.Data.Services.Client.Metro/System.Data.Services.Client/DataServiceCollection_InsertIntoTrackedButNotLoadedCollection">
+				<Candidate type="String">
+					<Value>An item could not be added to the collection. When items in a DataServiceCollection are tracked by the DataServiceContext, new items cannot be added before items have been loaded into the collection.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="DataServiceCollection_LoadAsyncNoParamsWithoutParentEntity" uri="ms-resource://Microsoft.Data.Services.Client.Metro/System.Data.Services.Client/DataServiceCollection_LoadAsyncNoParamsWithoutParentEntity">
+				<Candidate type="String">
+					<Value>The LoadAsync method cannot be called when the DataServiceCollection is not a child collection of a related entity.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="DataServiceCollection_LoadAsyncRequiresDataServiceQuery" uri="ms-resource://Microsoft.Data.Services.Client.Metro/System.Data.Services.Client/DataServiceCollection_LoadAsyncRequiresDataServiceQuery">
+				<Candidate type="String">
+					<Value>Only a typed DataServiceQuery object can be supplied when calling the LoadAsync method on DataServiceCollection.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="DataServiceCollection_LoadRequiresTargetCollectionObserved" uri="ms-resource://Microsoft.Data.Services.Client.Metro/System.Data.Services.Client/DataServiceCollection_LoadRequiresTargetCollectionObserved">
+				<Candidate type="String">
+					<Value>Target collection for the Load operation must have an associated DataServiceContext.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="DataServiceCollection_MultipleLoadAsyncOperationsAtTheSameTime" uri="ms-resource://Microsoft.Data.Services.Client.Metro/System.Data.Services.Client/DataServiceCollection_MultipleLoadAsyncOperationsAtTheSameTime">
+				<Candidate type="String">
+					<Value>A previous LoadAsync operation has not yet completed. You cannot call the LoadAsync method on the DataServiceCollection again until the previous operation has completed.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="DataServiceCollection_OperationForTrackedOnly" uri="ms-resource://Microsoft.Data.Services.Client.Metro/System.Data.Services.Client/DataServiceCollection_OperationForTrackedOnly">
+				<Candidate type="String">
+					<Value>This operation is only supported on collections that are being tracked.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="DataServiceException_GeneralError" uri="ms-resource://Microsoft.Data.Services.Client.Metro/System.Data.Services.Client/DataServiceException_GeneralError">
+				<Candidate type="String">
+					<Value>An error occurred while processing this request.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="DataServiceQuery_EnumerationNotSupportedInSL" uri="ms-resource://Microsoft.Data.Services.Client.Metro/System.Data.Services.Client/DataServiceQuery_EnumerationNotSupportedInSL">
+				<Candidate type="String">
+					<Value>Silverlight does not enable you to directly enumerate over a data service query. This is because enumeration automatically sends a synchronous request to the data service. Because Silverlight only supports asynchronous operations, you must instead call the BeginExecute and EndExecute methods to obtain a query result that supports enumeration.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="Deserialize_Current" uri="ms-resource://Microsoft.Data.Services.Client.Metro/System.Data.Services.Client/Deserialize_Current">
+				<Candidate type="String">
+					<Value>The current value '{1}' type is not compatible with the expected '{0}' type.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="Deserialize_ExpectingSimpleValue" uri="ms-resource://Microsoft.Data.Services.Client.Metro/System.Data.Services.Client/Deserialize_ExpectingSimpleValue">
+				<Candidate type="String">
+					<Value>Error processing response stream. The XML element contains mixed content.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="Deserialize_GetEnumerator" uri="ms-resource://Microsoft.Data.Services.Client.Metro/System.Data.Services.Client/Deserialize_GetEnumerator">
+				<Candidate type="String">
+					<Value>Only a single enumeration is supported by this IEnumerable.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="Deserialize_MismatchAtomLinkEntryPropertyIsCollection" uri="ms-resource://Microsoft.Data.Services.Client.Metro/System.Data.Services.Client/Deserialize_MismatchAtomLinkEntryPropertyIsCollection">
+				<Candidate type="String">
+					<Value>Error processing response stream. Atom payload has an entry and the property '{0}' is a collection.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="Deserialize_MismatchAtomLinkFeedPropertyNotCollection" uri="ms-resource://Microsoft.Data.Services.Client.Metro/System.Data.Services.Client/Deserialize_MismatchAtomLinkFeedPropertyNotCollection">
+				<Candidate type="String">
+					<Value>Error processing response stream. Atom payload has a feed and the property '{0}' is not a collection.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="Deserialize_MismatchAtomLinkLocalSimple" uri="ms-resource://Microsoft.Data.Services.Client.Metro/System.Data.Services.Client/Deserialize_MismatchAtomLinkLocalSimple">
+				<Candidate type="String">
+					<Value>Error processing response stream. Atom payload has a link, local object has a simple value.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="Deserialize_MissingIdElement" uri="ms-resource://Microsoft.Data.Services.Client.Metro/System.Data.Services.Client/Deserialize_MissingIdElement">
+				<Candidate type="String">
+					<Value>Error processing response stream. Missing id element in the response.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="Deserialize_MixedTextWithComment" uri="ms-resource://Microsoft.Data.Services.Client.Metro/System.Data.Services.Client/Deserialize_MixedTextWithComment">
+				<Candidate type="String">
+					<Value>Error processing response stream. Element value interspersed with a comment is not supported.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="Deserialize_NoLocationHeader" uri="ms-resource://Microsoft.Data.Services.Client.Metro/System.Data.Services.Client/Deserialize_NoLocationHeader">
+				<Candidate type="String">
+					<Value>The response to this POST request did not contain a 'location' header. That is not supported by this client.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="Deserialize_ServerException" uri="ms-resource://Microsoft.Data.Services.Client.Metro/System.Data.Services.Client/Deserialize_ServerException">
+				<Candidate type="String">
+					<Value>Error processing response stream. Server failed with following message:
+{0}</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="DSKAttribute_MustSpecifyAtleastOnePropertyName" uri="ms-resource://Microsoft.Data.Services.Client.Metro/System.Data.Services.Client/DSKAttribute_MustSpecifyAtleastOnePropertyName">
+				<Candidate type="String">
+					<Value>DataServiceKey attribute must specify at least one property name.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="EntityDescriptor_MissingSelfEditLink" uri="ms-resource://Microsoft.Data.Services.Client.Metro/System.Data.Services.Client/EntityDescriptor_MissingSelfEditLink">
+				<Candidate type="String">
+					<Value>The entity with identity '{0}' does not have a self-link or an edit-link associated with it. Please make sure that the entity has either a self-link or an edit-link associated with it.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="EpmSourceTree_CollectionPropertyCannotBeMapped" uri="ms-resource://Microsoft.Data.Services.Client.Metro/System.Data.Services.Client/EpmSourceTree_CollectionPropertyCannotBeMapped">
+				<Candidate type="String">
+					<Value>The property '{0}' on the type '{1}' is a collection. Collection properties cannot be mapped with an entity property mapping.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="EpmSourceTree_DuplicateEpmAttrsWithSameSourceName" uri="ms-resource://Microsoft.Data.Services.Client.Metro/System.Data.Services.Client/EpmSourceTree_DuplicateEpmAttrsWithSameSourceName">
+				<Candidate type="String">
+					<Value>The PropertyName property value '{0}' on more than one EntityPropertyMappingAttribute on resource type '{1}' is provided more than once.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="EpmSourceTree_EndsWithNonPrimitiveType" uri="ms-resource://Microsoft.Data.Services.Client.Metro/System.Data.Services.Client/EpmSourceTree_EndsWithNonPrimitiveType">
+				<Candidate type="String">
+					<Value>The property '{0}' provided at the end of the PropertyName property of the EntityPropertyMappingAttribute on a resource type is not a primitive type.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="EpmSourceTree_InaccessiblePropertyOnType" uri="ms-resource://Microsoft.Data.Services.Client.Metro/System.Data.Services.Client/EpmSourceTree_InaccessiblePropertyOnType">
+				<Candidate type="String">
+					<Value>The property '{0}' on type '{1}' is not present or is inaccessible.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="EpmSourceTree_InvalidSourcePath" uri="ms-resource://Microsoft.Data.Services.Client.Metro/System.Data.Services.Client/EpmSourceTree_InvalidSourcePath">
+				<Candidate type="String">
+					<Value>The PropertyName property value '{1}' of EntityPropertyMappingAttribute on type '{0}' is not valid.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="EpmSourceTree_NamedStreamCannotBeMapped" uri="ms-resource://Microsoft.Data.Services.Client.Metro/System.Data.Services.Client/EpmSourceTree_NamedStreamCannotBeMapped">
+				<Candidate type="String">
+					<Value>The property '{0}' on the type '{1}' is of the type 'DataServiceStreamLink'. Stream properties cannot be mapped with an entity property mapping.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="EpmSourceTree_SpatialTypeCannotBeMapped" uri="ms-resource://Microsoft.Data.Services.Client.Metro/System.Data.Services.Client/EpmSourceTree_SpatialTypeCannotBeMapped">
+				<Candidate type="String">
+					<Value>The property '{0}' on the type '{1}' is a spatial type. Spatial type properties cannot be mapped with an entity property mapping.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="EpmTargetTree_AttributeInMiddle" uri="ms-resource://Microsoft.Data.Services.Client.Metro/System.Data.Services.Client/EpmTargetTree_AttributeInMiddle">
+				<Candidate type="String">
+					<Value>The attribute identifier '{0}' is provided in the middle of the TargetName property of EntityPropertyMappingAttribute.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="EpmTargetTree_DuplicateEpmAttrsWithSameTargetName" uri="ms-resource://Microsoft.Data.Services.Client.Metro/System.Data.Services.Client/EpmTargetTree_DuplicateEpmAttrsWithSameTargetName">
+				<Candidate type="String">
+					<Value>The TargetName property '{0}' on more than one EntityPropertyMappingAttribute on resource type '{1}' have the same value. Conflicting properties are '{2}' and '{3}'.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="EpmTargetTree_InvalidTargetPath" uri="ms-resource://Microsoft.Data.Services.Client.Metro/System.Data.Services.Client/EpmTargetTree_InvalidTargetPath">
+				<Candidate type="String">
+					<Value>The TargetName property path '{0}' set in the EntityPropertyMappingAttribute is not valid.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="HttpProcessUtility_ClosingQuoteNotFound" uri="ms-resource://Microsoft.Data.Services.Client.Metro/System.Data.Services.Client/HttpProcessUtility_ClosingQuoteNotFound">
+				<Candidate type="String">
+					<Value>Value for MIME type parameter '{0}' is incorrect because the closing quote character could not be found while the parameter value started with a quote character.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="HttpProcessUtility_ContentTypeMissing" uri="ms-resource://Microsoft.Data.Services.Client.Metro/System.Data.Services.Client/HttpProcessUtility_ContentTypeMissing">
+				<Candidate type="String">
+					<Value>Content-Type header value missing.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="HttpProcessUtility_EncodingNotSupported" uri="ms-resource://Microsoft.Data.Services.Client.Metro/System.Data.Services.Client/HttpProcessUtility_EncodingNotSupported">
+				<Candidate type="String">
+					<Value>Character set '{0}' is not supported.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="HttpProcessUtility_EscapeCharAtEnd" uri="ms-resource://Microsoft.Data.Services.Client.Metro/System.Data.Services.Client/HttpProcessUtility_EscapeCharAtEnd">
+				<Candidate type="String">
+					<Value>Value for MIME type parameter '{0}' is incorrect because it terminated with escape character. Escape characters must always be followed by a character in a parameter value.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="HttpProcessUtility_EscapeCharWithoutQuotes" uri="ms-resource://Microsoft.Data.Services.Client.Metro/System.Data.Services.Client/HttpProcessUtility_EscapeCharWithoutQuotes">
+				<Candidate type="String">
+					<Value>Value for MIME type parameter '{0}' is incorrect because it contained escape characters even though it was not quoted.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="HttpProcessUtility_MediaTypeMissingValue" uri="ms-resource://Microsoft.Data.Services.Client.Metro/System.Data.Services.Client/HttpProcessUtility_MediaTypeMissingValue">
+				<Candidate type="String">
+					<Value>Media type is missing a parameter value.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="HttpProcessUtility_MediaTypeRequiresSemicolonBeforeParameter" uri="ms-resource://Microsoft.Data.Services.Client.Metro/System.Data.Services.Client/HttpProcessUtility_MediaTypeRequiresSemicolonBeforeParameter">
+				<Candidate type="String">
+					<Value>Media type requires a ';' character before a parameter definition.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="HttpProcessUtility_MediaTypeRequiresSlash" uri="ms-resource://Microsoft.Data.Services.Client.Metro/System.Data.Services.Client/HttpProcessUtility_MediaTypeRequiresSlash">
+				<Candidate type="String">
+					<Value>Media type requires a '/' character.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="HttpProcessUtility_MediaTypeRequiresSubType" uri="ms-resource://Microsoft.Data.Services.Client.Metro/System.Data.Services.Client/HttpProcessUtility_MediaTypeRequiresSubType">
+				<Candidate type="String">
+					<Value>Media type requires a subtype definition.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="HttpProcessUtility_MediaTypeUnspecified" uri="ms-resource://Microsoft.Data.Services.Client.Metro/System.Data.Services.Client/HttpProcessUtility_MediaTypeUnspecified">
+				<Candidate type="String">
+					<Value>Media type is unspecified.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="HttpWebRequest_Aborted" uri="ms-resource://Microsoft.Data.Services.Client.Metro/System.Data.Services.Client/HttpWebRequest_Aborted">
+				<Candidate type="String">
+					<Value>This web request was aborted.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="HttpWebRequest_XmlHttpCredentialsNotSupported" uri="ms-resource://Microsoft.Data.Services.Client.Metro/System.Data.Services.Client/HttpWebRequest_XmlHttpCredentialsNotSupported">
+				<Candidate type="String">
+					<Value>The DataServiceContext.Credentials property can only be set when you are using the Silverlight Client HTTP implementation. To use this implementation, set the DataServiceContext.HttpStack property to a value of ClientHttp.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="HttpWebRequest_XmlHttpNonDefaultCredentialsNotSupported" uri="ms-resource://Microsoft.Data.Services.Client.Metro/System.Data.Services.Client/HttpWebRequest_XmlHttpNonDefaultCredentialsNotSupported">
+				<Candidate type="String">
+					<Value>The DataServiceContext.UseDefaultCredentials property cannot be set to false when you are using the XMLHTTP implementation. To use non-default authentication credentials, you must set the DataServiceContext.HttpStack property to a value of ClientHttp to guarantee that the Silverlight Client HTTP implementation is used</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="HttpWeb_Internal" uri="ms-resource://Microsoft.Data.Services.Client.Metro/System.Data.Services.Client/HttpWeb_Internal">
+				<Candidate type="String">
+					<Value>Internal error at '{0}'.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="HttpWeb_InternalArgument" uri="ms-resource://Microsoft.Data.Services.Client.Metro/System.Data.Services.Client/HttpWeb_InternalArgument">
+				<Candidate type="String">
+					<Value>Internal error at '{0}' for argument '{1}'.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="MaterializeFromAtom_CollectionKeyNotPresentInLinkTable" uri="ms-resource://Microsoft.Data.Services.Client.Metro/System.Data.Services.Client/MaterializeFromAtom_CollectionKeyNotPresentInLinkTable">
+				<Candidate type="String">
+					<Value>The collection is not part of the current entry</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="MaterializeFromAtom_CountNotPresent" uri="ms-resource://Microsoft.Data.Services.Client.Metro/System.Data.Services.Client/MaterializeFromAtom_CountNotPresent">
+				<Candidate type="String">
+					<Value>Count value is not part of the response stream.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="MaterializeFromAtom_GetNestLinkForFlatCollection" uri="ms-resource://Microsoft.Data.Services.Client.Metro/System.Data.Services.Client/MaterializeFromAtom_GetNestLinkForFlatCollection">
+				<Candidate type="String">
+					<Value>This response does not contain any nested collections. Use null as Key instead.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="MaterializeFromAtom_TopLevelLinkNotAvailable" uri="ms-resource://Microsoft.Data.Services.Client.Metro/System.Data.Services.Client/MaterializeFromAtom_TopLevelLinkNotAvailable">
+				<Candidate type="String">
+					<Value>The top level link is only available after the response has been enumerated.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="ODataRequestMessage_GetStreamMethodNotSupported" uri="ms-resource://Microsoft.Data.Services.Client.Metro/System.Data.Services.Client/ODataRequestMessage_GetStreamMethodNotSupported">
+				<Candidate type="String">
+					<Value>GetStream method is not supported.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="Serializer_InvalidCollectionParamterItemType" uri="ms-resource://Microsoft.Data.Services.Client.Metro/System.Data.Services.Client/Serializer_InvalidCollectionParamterItemType">
+				<Candidate type="String">
+					<Value>The operation parameter named '{0}' has a collection item of Edm type kind '{1}'. A collection item must be either a primitive type or a complex Edm type kind.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="Serializer_InvalidParameterType" uri="ms-resource://Microsoft.Data.Services.Client.Metro/System.Data.Services.Client/Serializer_InvalidParameterType">
+				<Candidate type="String">
+					<Value>The operation parameter named '{0}' was of Edm type kind '{1}'. An operation parameter must be either a primitive type, a complex type or a collection of primitive or complex types.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="Serializer_LoopsNotAllowedInComplexTypes" uri="ms-resource://Microsoft.Data.Services.Client.Metro/System.Data.Services.Client/Serializer_LoopsNotAllowedInComplexTypes">
+				<Candidate type="String">
+					<Value>A circular loop was detected while serializing the property '{0}'. You must make sure that loops are not present in properties that return a collection or complex type.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="Serializer_LoopsNotAllowedInNonPropertyComplexTypes" uri="ms-resource://Microsoft.Data.Services.Client.Metro/System.Data.Services.Client/Serializer_LoopsNotAllowedInNonPropertyComplexTypes">
+				<Candidate type="String">
+					<Value>A circular loop was detected while serializing the complex type '{0}'. You must make sure that loops are not present in a collection or a complex type.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="Serializer_NullCollectionParamterItemValue" uri="ms-resource://Microsoft.Data.Services.Client.Metro/System.Data.Services.Client/Serializer_NullCollectionParamterItemValue">
+				<Candidate type="String">
+					<Value>The operation parameter named '{0}' has a null collection item. The items of a collection must not be null.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="Serializer_UriDoesNotContainParameterAlias" uri="ms-resource://Microsoft.Data.Services.Client.Metro/System.Data.Services.Client/Serializer_UriDoesNotContainParameterAlias">
+				<Candidate type="String">
+					<Value>The parameter alias '{0}' was not present in the request URI. All parameters passed as alias must be present in the request URI.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="Util_EmptyArray" uri="ms-resource://Microsoft.Data.Services.Client.Metro/System.Data.Services.Client/Util_EmptyArray">
+				<Candidate type="String">
+					<Value>Empty array.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="Util_EmptyString" uri="ms-resource://Microsoft.Data.Services.Client.Metro/System.Data.Services.Client/Util_EmptyString">
+				<Candidate type="String">
+					<Value>Empty string.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="Util_NullArrayElement" uri="ms-resource://Microsoft.Data.Services.Client.Metro/System.Data.Services.Client/Util_NullArrayElement">
+				<Candidate type="String">
+					<Value>Array contains a null element.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="WebUtil_CollectionTypeNotSupportedInV2OrBelow" uri="ms-resource://Microsoft.Data.Services.Client.Metro/System.Data.Services.Client/WebUtil_CollectionTypeNotSupportedInV2OrBelow">
+				<Candidate type="String">
+					<Value>The type '{0}' is a collection type. Collection types are only supported in 'V3' version of the protocol and above.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="WebUtil_TypeMismatchInCollection" uri="ms-resource://Microsoft.Data.Services.Client.Metro/System.Data.Services.Client/WebUtil_TypeMismatchInCollection">
+				<Candidate type="String">
+					<Value>An item in the collection property '{0}' is not of the correct type. All items in the collection property must be of the collection item type.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="WebUtil_TypeMismatchInNonPropertyCollection" uri="ms-resource://Microsoft.Data.Services.Client.Metro/System.Data.Services.Client/WebUtil_TypeMismatchInNonPropertyCollection">
+				<Candidate type="String">
+					<Value>A collection of item type '{0}' has an item which is not of the correct type. All items in the collection must be of the collection item type.</Value>
+				</Candidate>
+			</NamedResource>
+		</ResourceMapSubtree>
+	</ResourceMap>
+</PriInfo>

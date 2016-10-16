@@ -1,0 +1,1 @@
+c:\users\kyle\documents\visual studio 2012\Projects\Ch19\CompassSample\CompassSample\CompassSample.csproj;neutral

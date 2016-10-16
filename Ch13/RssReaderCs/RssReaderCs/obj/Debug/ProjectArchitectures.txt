@@ -1,0 +1,1 @@
+c:\users\kyle\documents\visual studio 11\Projects\RssReaderCs\RssReaderCs\RssReaderCs.csproj;neutral

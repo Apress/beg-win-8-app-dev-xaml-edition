@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>WIN8-HP</Machine>
+    <WindowsUser>Kyle</WindowsUser>
+    <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+    <RegisteredManifestChecksum>ECAB5C6E2B8B3A567CAF8EC89E7274E4669CD49B9979D3159F8F77C2FE892483</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>c54fa742-2487-40e0-833e-d7069e76ef5e_1.0.0.0_neutral__1n6gkc32tkj7t</RegisteredPackageMoniker>
+    <RegisteredUserModeAppID>c54fa742-2487-40e0-833e-d7069e76ef5e_1n6gkc32tkj7t!App</RegisteredUserModeAppID>
+    <RegisteredPackageID>c54fa742-2487-40e0-833e-d7069e76ef5e</RegisteredPackageID>
+    <RegisteredPackagePublisher>CN=Kyle</RegisteredPackagePublisher>
+    <RegisteredVersion>1.0.0.0</RegisteredVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="C:\Users\Kyle\Documents\Visual Studio 2012\Projects\Ch18\UpdateTiles\UpdateTiles\bin\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2012-07-19T10:24:12.108</Modified>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="C:\Users\Kyle\Documents\Visual Studio 2012\Projects\Ch18\UpdateTiles\UpdateTiles\bin\Debug\UpdateTiles.exe">
+      <PackagePath>UpdateTiles.exe</PackagePath>
+      <Modified>2012-07-19T10:24:11.655</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Kyle\Documents\Visual Studio 2012\Projects\Ch18\UpdateTiles\UpdateTiles\bin\Debug\UpdateTiles.pdb">
+      <PackagePath>UpdateTiles.pdb</PackagePath>
+      <Modified>2012-07-19T10:24:11.627</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Kyle\Documents\Visual Studio 2012\Projects\Ch18\UpdateTiles\UpdateTiles\Assets\Logo.png">
+      <PackagePath>Assets\Logo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2012-03-19T20:54:48.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Kyle\Documents\Visual Studio 2012\Projects\Ch18\UpdateTiles\UpdateTiles\Assets\SmallLogo.png">
+      <PackagePath>Assets\SmallLogo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2012-03-19T20:54:48.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Kyle\Documents\Visual Studio 2012\Projects\Ch18\UpdateTiles\UpdateTiles\Assets\SplashScreen.png">
+      <PackagePath>Assets\SplashScreen.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2012-03-19T20:54:48.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Kyle\Documents\Visual Studio 2012\Projects\Ch18\UpdateTiles\UpdateTiles\Assets\StoreLogo.png">
+      <PackagePath>Assets\StoreLogo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2012-03-19T20:54:48.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Kyle\Documents\Visual Studio 2012\Projects\Ch18\UpdateTiles\UpdateTiles\bin\Debug\Common\StandardStyles.xaml">
+      <PackagePath>Common\StandardStyles.xaml</PackagePath>
+      <Modified>2012-04-24T00:03:16.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Kyle\Documents\Visual Studio 2012\Projects\Ch18\UpdateTiles\UpdateTiles\bin\Debug\MainPage.xaml">
+      <PackagePath>MainPage.xaml</PackagePath>
+      <Modified>2012-07-19T09:55:58.532</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Kyle\Documents\Visual Studio 2012\Projects\Ch18\UpdateTiles\UpdateTiles\bin\Debug\App.xaml">
+      <PackagePath>App.xaml</PackagePath>
+      <Modified>2012-07-19T09:54:07.184</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Kyle\Documents\Visual Studio 2012\Projects\Ch18\UpdateTiles\UpdateTiles\bin\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+      <Modified>2012-07-19T09:56:01.033</Modified>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>
